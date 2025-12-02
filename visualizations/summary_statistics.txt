@@ -1,0 +1,62 @@
+================================================================================
+AI ARMS RACE - SUMMARY STATISTICS
+================================================================================
+
+Total Models Analyzed: 609
+Date Range: 2018-01-30 to 2025-11-24
+
+SECTOR DISTRIBUTION:
+----------------------------------------
+  Private: 383 (62.9%)
+  Other: 153 (25.1%)
+  Public: 73 (12.0%)
+
+SOURCE TYPE DISTRIBUTION:
+----------------------------------------
+  Closed Source: 321 (52.7%)
+  Open Source: 278 (45.6%)
+  Other: 10 (1.6%)
+
+COUNTRY RELATIONSHIP DISTRIBUTION:
+----------------------------------------
+  FEYE: 459 (75.4%)
+  Adversaries: 105 (17.2%)
+  Close Allies & Partners: 29 (4.8%)
+  NATO: 16 (2.6%)
+
+TOP 10 COUNTRIES:
+----------------------------------------
+  United States: 391 (64.2%)
+  China: 119 (19.5%)
+  United Kingdom: 36 (5.9%)
+  Korea (Republic of): 12 (2.0%)
+  Germany: 10 (1.6%)
+  France: 7 (1.1%)
+  Canada: 5 (0.8%)
+  Saudi Arabia: 5 (0.8%)
+  Israel: 4 (0.7%)
+  Switzerland: 3 (0.5%)
+
+TOP 10 COMPANIES/ORGANIZATIONS:
+----------------------------------------
+  Google: 127 (20.9%)
+  Meta: 65 (10.7%)
+  OpenAI: 43 (7.1%)
+  Alibaba: 23 (3.8%)
+  NVIDIA: 22 (3.6%)
+  Tsinghua University: 15 (2.5%)
+  Anthropic: 13 (2.1%)
+  Microsoft: 13 (2.1%)
+  Stanford University: 11 (1.8%)
+  Baidu: 10 (1.6%)
+
+YEARLY BREAKDOWN:
+----------------------------------------
+  2018: 37 models
+  2019: 68 models
+  2020: 50 models
+  2021: 78 models
+  2022: 92 models
+  2023: 116 models
+  2024: 96 models
+  2025: 72 models
