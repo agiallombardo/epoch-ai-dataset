@@ -23,7 +23,7 @@ import pandas as pd
 import numpy as np
 from math import pi
 
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 # Gestalt-compliant styling and color palette
 # Following Gestalt Laws: Proximity, Similarity, Closure, Continuity, Figure/Ground, Common Region
@@ -125,10 +125,31 @@ plt.rcParams['grid.color'] = STYLE_CONFIG['grid_color']
 
 # Output directory for visualizations
 OUTPUT_DIR = "visualizations"
+# Output directory for JSON data files
+JSON_OUTPUT_DIR = "output"
 DATE_FORMAT = '%Y-%m-%d'
 
-def load_data(json_file: str = "notable_ai_models.json") -> List[Dict]:
-    """Load AI models data from JSON file."""
+def load_data(json_file: Optional[str] = None) -> List[Dict]:
+    """Load AI models data from JSON file.
+    
+    If json_file is not provided, looks for the latest JSON file in the output directory,
+    or falls back to the current directory.
+    """
+    if json_file is None:
+        # Try to find the latest JSON file in output directory
+        if os.path.exists(JSON_OUTPUT_DIR):
+            json_files = [f for f in os.listdir(JSON_OUTPUT_DIR) if f.endswith('.json')]
+            if json_files:
+                # Sort by modification time and use the most recent
+                json_files.sort(key=lambda f: os.path.getmtime(os.path.join(JSON_OUTPUT_DIR, f)), reverse=True)
+                json_file = os.path.join(JSON_OUTPUT_DIR, json_files[0])
+            else:
+                # Fallback to current directory
+                json_file = "notable_ai_models.json"
+        else:
+            # Fallback to current directory
+            json_file = "notable_ai_models.json"
+    
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     return data

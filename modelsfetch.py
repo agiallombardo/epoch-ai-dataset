@@ -9,10 +9,17 @@ from datetime import datetime
 
 # Constants
 DATA_URL = "https://epoch.ai/data/ai_models.zip"
-OUTPUT_JSON = "notable_ai_models.json"
+OUTPUT_DIR = "output"
 CSV_FILENAME = "notable_ai_models.csv"
 DATE_FORMAT = '%Y-%m-%d'
 MIN_DATE = datetime(2018, 1, 1)
+
+# Generate output JSON filename with date
+def get_output_json_filename():
+    """Generate output JSON filename with current date in MM-DD-YYYY format."""
+    today = datetime.now()
+    date_str = today.strftime('%m-%d-%Y')
+    return f"notable_ai_models_{date_str}.json"
 
 # Country relationship sets (module-level for performance)
 # Includes both original variations and normalized names (lowercase for lookup)
@@ -761,27 +768,53 @@ def download_and_convert():
         data = filtered_data
         print(f"Filtered to records from Jan 2018 to present: {len(data)} records")
         
+        # Create output directory if it doesn't exist
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
+        
+        # Generate output JSON filename with date
+        output_json_filename = get_output_json_filename()
+        output_json_path = os.path.join(OUTPUT_DIR, output_json_filename)
+        
         # Save as JSON
-        with open(OUTPUT_JSON, 'w', encoding='utf-8') as json_file:
+        with open(output_json_path, 'w', encoding='utf-8') as json_file:
             json.dump(data, json_file, indent=2, ensure_ascii=False)
         
-        print(f"JSON file saved as {OUTPUT_JSON}")
+        print(f"JSON file saved as {output_json_path}")
         print(f"Total records: {len(data)}")
 
-def normalize_existing_json(input_json=OUTPUT_JSON, output_json=None):
+def normalize_existing_json(input_json=None, output_json=None):
     """
     Normalize an existing JSON file by adding company/department fields
     and normalizing countries and model accessibility.
     
     Args:
-        input_json: Path to input JSON file (default: OUTPUT_JSON)
-        output_json: Path to output JSON file (default: same as input_json)
+        input_json: Path to input JSON file (default: looks for latest in output dir or current dir)
+        output_json: Path to output JSON file (default: generates new filename with date in output dir)
     
     Returns:
         List of normalized records
     """
+    # Create output directory if it doesn't exist
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    
+    if input_json is None:
+        # Try to find the latest JSON file in output directory, or fallback to current directory
+        if os.path.exists(OUTPUT_DIR):
+            json_files = [f for f in os.listdir(OUTPUT_DIR) if f.endswith('.json')]
+            if json_files:
+                # Sort by modification time and use the most recent
+                json_files.sort(key=lambda f: os.path.getmtime(os.path.join(OUTPUT_DIR, f)), reverse=True)
+                input_json = os.path.join(OUTPUT_DIR, json_files[0])
+            else:
+                # Fallback to current directory
+                input_json = "notable_ai_models.json"
+        else:
+            input_json = "notable_ai_models.json"
+    
     if output_json is None:
-        output_json = input_json
+        # Generate new filename with current date
+        output_json_filename = get_output_json_filename()
+        output_json = os.path.join(OUTPUT_DIR, output_json_filename)
     
     print(f"Loading JSON from {input_json}...")
     with open(input_json, 'r', encoding='utf-8') as f:
@@ -808,7 +841,7 @@ if __name__ == "__main__":
     import sys
     if len(sys.argv) > 1 and sys.argv[1] == "normalize":
         # Normalize existing JSON file
-        input_file = sys.argv[2] if len(sys.argv) > 2 else OUTPUT_JSON
+        input_file = sys.argv[2] if len(sys.argv) > 2 else None
         output_file = sys.argv[3] if len(sys.argv) > 3 else None
         normalize_existing_json(input_file, output_file)
     else:
