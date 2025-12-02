@@ -124,31 +124,29 @@ plt.rcParams['grid.alpha'] = STYLE_CONFIG['grid_alpha']
 plt.rcParams['grid.color'] = STYLE_CONFIG['grid_color']
 
 # Output directory for visualizations
-OUTPUT_DIR = "visualizations"
-# Output directory for JSON data files
-JSON_OUTPUT_DIR = "output"
+OUTPUT_DIR = "visualizations/shotgun examples"
+# Output directory for JSON data files (processed data)
+JSON_OUTPUT_DIR = "../data/processed"
 DATE_FORMAT = '%Y-%m-%d'
 
 def load_data(json_file: Optional[str] = None) -> List[Dict]:
     """Load AI models data from JSON file.
     
-    If json_file is not provided, looks for the latest JSON file in the output directory,
-    or falls back to the current directory.
+    If json_file is not provided, loads the most recent notable JSON file from the processed data directory.
     """
     if json_file is None:
-        # Try to find the latest JSON file in output directory
-        if os.path.exists(JSON_OUTPUT_DIR):
-            json_files = [f for f in os.listdir(JSON_OUTPUT_DIR) if f.endswith('.json')]
-            if json_files:
-                # Sort by modification time and use the most recent
-                json_files.sort(key=lambda f: os.path.getmtime(os.path.join(JSON_OUTPUT_DIR, f)), reverse=True)
-                json_file = os.path.join(JSON_OUTPUT_DIR, json_files[0])
-            else:
-                # Fallback to current directory
-                json_file = "notable_ai_models.json"
-        else:
-            # Fallback to current directory
-            json_file = "notable_ai_models.json"
+        if not os.path.exists(JSON_OUTPUT_DIR):
+            raise FileNotFoundError(f"Directory {JSON_OUTPUT_DIR} does not exist")
+        
+        # Find all notable JSON files in the processed directory
+        json_files = [f for f in os.listdir(JSON_OUTPUT_DIR) if f.endswith('.json') and 'notable' in f.lower()]
+        
+        if not json_files:
+            raise FileNotFoundError(f"No notable JSON files found in {JSON_OUTPUT_DIR}")
+        
+        # Sort by modification time and use the most recent
+        json_files.sort(key=lambda f: os.path.getmtime(os.path.join(JSON_OUTPUT_DIR, f)), reverse=True)
+        json_file = os.path.join(JSON_OUTPUT_DIR, json_files[0])
     
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
