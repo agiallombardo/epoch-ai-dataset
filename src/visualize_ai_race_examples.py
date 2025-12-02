@@ -125,7 +125,10 @@ plt.rcParams['grid.color'] = STYLE_CONFIG['grid_color']
 # Output directory for visualizations
 OUTPUT_DIR = "visualizations/shotgun examples"
 # Output directory for JSON data files (processed data)
-JSON_OUTPUT_DIR = "../data/processed"
+# Get the script directory and construct path relative to project root
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(SCRIPT_DIR)
+JSON_OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data", "processed")
 DATE_FORMAT = '%Y-%m-%d'
 
 def load_data(json_file: Optional[str] = None) -> List[Dict]:
@@ -1022,9 +1025,9 @@ def plot_matrix_visualizations(df: pd.DataFrame):
     # Prepare data with numeric values
     df_matrix = df.copy()
     # Handle log calculations safely
-    param_series = df_matrix['parameters'].replace([np.inf, -np.inf], np.nan)
+    param_series = pd.to_numeric(df_matrix['parameters'], errors='coerce').replace([np.inf, -np.inf], np.nan)
     df_matrix['param_log'] = np.log10(param_series.fillna(0) + 1)
-    compute_series = df_matrix['training_compute'].replace([np.inf, -np.inf], np.nan)
+    compute_series = pd.to_numeric(df_matrix['training_compute'], errors='coerce').replace([np.inf, -np.inf], np.nan)
     df_matrix['compute_log'] = np.log10(compute_series.fillna(0) + 1)
     
     # Matrix 1: Country Relationship vs Sector - Model Count
