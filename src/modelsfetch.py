@@ -9,7 +9,7 @@ from datetime import datetime
 
 # Constants
 DATA_URL = "https://epoch.ai/data/ai_models.zip"
-OUTPUT_DIR = "output"
+OUTPUT_DIR = "data/processed"
 CSV_FILENAME = "notable_ai_models.csv"
 DATE_FORMAT = '%Y-%m-%d'
 MIN_DATE = datetime(2018, 1, 1)
