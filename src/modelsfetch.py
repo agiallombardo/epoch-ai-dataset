@@ -572,13 +572,56 @@ def normalize_record_fields(record):
     if 'countryOfOrganization' in record:
         normalized_country = normalize_country(record['countryOfOrganization'])
         record['countryOfOrganization'] = normalized_country
-        # Add country relationship categorization using normalized country (avoids duplicate processing)
-        record['countryRelationship'] = get_country_group(normalized_country)
-        # Remove old countryGroup field if it exists
-        if 'countryGroup' in record:
-            del record['countryGroup']
         # Extract single country value for easier access
         record['country'] = extract_single_value(normalized_country)
+    
+    # Special handling for DeepMind based on publication date
+    company = record.get('company')
+    department = record.get('department')
+    publication_date = record.get('publicationDate')
+    
+    # Check if this is DeepMind (either Google/DeepMind or standalone DeepMind)
+    is_deepmind = (company == 'Google' and department == 'DeepMind') or company == 'DeepMind'
+    
+    if is_deepmind and publication_date:
+        try:
+            # Parse publication date to get year
+            date_obj = datetime.strptime(publication_date, DATE_FORMAT)
+            year = date_obj.year
+            
+            if year < 2014:
+                # Before 2014: DeepMind is standalone UK company
+                record['company'] = 'DeepMind'
+                record['department'] = None
+                record['countryOfOrganization'] = 'United Kingdom'
+                record['country'] = 'United Kingdom'
+                # Let normal country relationship logic apply (UK = FEYE)
+            else:
+                # 2014 or later: DeepMind is part of Google in United States
+                record['company'] = 'Google'
+                record['department'] = 'DeepMind'
+                record['countryOfOrganization'] = 'United States'
+                record['country'] = 'United States'
+                # Explicitly set countryRelationship to Private Partnership for DeepMind
+                record['countryRelationship'] = 'Private Partnership'
+        except (ValueError, TypeError):
+            # If date parsing fails, default to post-2014 behavior (Google/DeepMind/US)
+            if company == 'Google' and department == 'DeepMind':
+                record['countryOfOrganization'] = 'United States'
+                record['country'] = 'United States'
+                record['countryRelationship'] = 'Private Partnership'
+    elif company == 'Google' and department == 'DeepMind':
+        # If no publication date but it's Google/DeepMind, assume post-2014 (default)
+        record['countryOfOrganization'] = 'United States'
+        record['country'] = 'United States'
+        record['countryRelationship'] = 'Private Partnership'
+    
+    # Add country relationship categorization using normalized country (after DeepMind correction)
+    if 'countryOfOrganization' in record and 'countryRelationship' not in record:
+        record['countryRelationship'] = get_country_group(record['countryOfOrganization'])
+    # Remove old countryGroup field if it exists
+    if 'countryGroup' in record:
+        del record['countryGroup']
     
     # Extract single company value
     if 'company' in record:
@@ -592,9 +635,13 @@ def normalize_record_fields(record):
     
     # Categorize model capacity based on parameters
     if 'parameters' in record:
-        # Ensure parameters is numeric
+        # Ensure parameters is numeric (decimal format)
         record['parameters'] = convert_to_numeric(record['parameters'])
         record['modelCapacity'] = categorize_model_capacity(record['parameters'])
+    
+    # Convert trainingComputeFlop to numeric (decimal format)
+    if 'trainingComputeFlop' in record:
+        record['trainingComputeFlop'] = convert_to_numeric(record['trainingComputeFlop'])
     
     # Normalize domain and extract single value
     if 'domain' in record:
@@ -637,6 +684,15 @@ def normalize_record_fields(record):
         if year:
             record['year'] = year
             record['yearMonth'] = year_month
+    
+    # Remove organization field if both company and department exist
+    if 'organization' in record and 'company' in record and 'department' in record:
+        if record.get('company') and record.get('department'):
+            del record['organization']
+    
+    # Remove country field (keep countryOfOrganization)
+    if 'country' in record:
+        del record['country']
 
 def download_and_convert():
     """
