@@ -154,6 +154,99 @@ def load_data(json_file: Optional[str] = None) -> List[Dict]:
         data = json.load(f)
     return data
 
+def load_benchmark_data() -> Optional[Dict]:
+    """Load processed benchmark data from JSON file."""
+    benchmark_file = os.path.join(JSON_OUTPUT_DIR, "benchmark_data.json")
+    if not os.path.exists(benchmark_file):
+        print(f"Warning: Benchmark data not found at {benchmark_file}")
+        return None
+    
+    with open(benchmark_file, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def normalize_model_name_for_matching(name: str) -> str:
+    """Normalize model name for matching (same logic as process_benchmark_data.py)."""
+    if not name:
+        return ""
+    import re
+    name = str(name).lower().strip()
+    name = re.sub(r'_[0-9]+k', '', name)
+    name = re.sub(r'_(none|low|medium|high|preview)', '', name)
+    name = re.sub(r'-\d{8}', '', name)
+    name = re.sub(r'^(model|version|v)\s*', '', name)
+    return name.strip()
+
+def normalize_org_for_matching(org: str) -> str:
+    """Normalize organization name for matching."""
+    if not org:
+        return ""
+    org = str(org).lower().strip()
+    mappings = {
+        "google deepmind": "google",
+        "deepmind": "google",
+        "openai": "openai",
+        "anthropic": "anthropic",
+        "meta": "meta",
+        "facebook": "meta",
+        "facebook ai research": "meta",
+    }
+    return mappings.get(org, org)
+
+def merge_benchmark_data(model_data: List[Dict], benchmark_data: Dict) -> List[Dict]:
+    """Merge benchmark data with model data."""
+    # Create lookup for ECI scores
+    eci_lookup = {}
+    for item in benchmark_data.get('index', []):
+        key = (item.get('normalized_model', ''), item.get('normalized_org', ''))
+        if key not in eci_lookup:
+            eci_lookup[key] = []
+        if item.get('eci_score') is not None:
+            eci_lookup[key].append(item['eci_score'])
+    
+    # Create lookup for benchmark scores
+    benchmark_lookup = {}
+    for benchmark_name, results in benchmark_data.get('benchmarks', {}).items():
+        for result in results:
+            model_version = result.get('model_version', '')
+            score = result.get('score')
+            if score is not None:
+                normalized_model = normalize_model_name_for_matching(model_version)
+                normalized_org = normalize_org_for_matching(result.get('organization', ''))
+                key = (normalized_model, normalized_org)
+                if key not in benchmark_lookup:
+                    benchmark_lookup[key] = {}
+                if benchmark_name not in benchmark_lookup[key]:
+                    benchmark_lookup[key][benchmark_name] = []
+                benchmark_lookup[key][benchmark_name].append(score)
+    
+    # Merge with model data
+    merged_data = []
+    for model in model_data:
+        model_copy = model.copy()
+        
+        # Try to match model
+        model_name = model.get('model', '')
+        company = model.get('company', '')
+        normalized_model = normalize_model_name_for_matching(model_name)
+        normalized_org = normalize_org_for_matching(company)
+        
+        key = (normalized_model, normalized_org)
+        
+        # Add ECI score
+        if key in eci_lookup and eci_lookup[key]:
+            model_copy['eci_score'] = max(eci_lookup[key])  # Use highest score
+        
+        # Add benchmark scores
+        if key in benchmark_lookup:
+            benchmark_scores = {}
+            for benchmark_name, scores in benchmark_lookup[key].items():
+                benchmark_scores[benchmark_name] = max(scores)  # Use best score
+            model_copy['benchmark_scores'] = benchmark_scores
+        
+        merged_data.append(model_copy)
+    
+    return merged_data
+
 def parse_date(date_str: str):
     """Parse date string to datetime object."""
     if not date_str:
@@ -259,6 +352,10 @@ def prepare_dataframe(data: List[Dict]) -> pd.DataFrame:
             # Fallback: categorize from parameters if capacity not available
             model_capacity = categorize_model_capacity(parameters)
         
+        # Extract ECI score and benchmark scores
+        eci_score = record.get('eci_score')
+        benchmark_scores = record.get('benchmark_scores', {})
+        
         records.append({
             'date': pub_date,
             'year': pub_date.year,
@@ -276,7 +373,9 @@ def prepare_dataframe(data: List[Dict]) -> pd.DataFrame:
             'task': task,
             'notability_criteria': notability_criteria,
             'training_hardware': training_hardware,
-            'model': record.get('model', 'Unknown')
+            'model': record.get('model', 'Unknown'),
+            'eci_score': float(eci_score) if eci_score is not None else None,
+            'benchmark_scores': benchmark_scores if benchmark_scores else None
         })
     
     df = pd.DataFrame(records)
@@ -1483,6 +1582,137 @@ def plot_lead_indicators_dashboard(df: pd.DataFrame):
                 facecolor=STYLE_CONFIG['figure_bg'])
     plt.close()
 
+def plot_benchmark_overlays(df: pd.DataFrame):
+    """Create visualizations overlaying benchmark performance data."""
+    # Filter to models with ECI scores
+    df_eci = df[df['eci_score'].notna()].copy()
+    
+    if len(df_eci) == 0:
+        print("No models with ECI scores found. Skipping benchmark overlays.")
+        return
+    
+    # 1. ECI Score over time by Alliance
+    fig, ax = plt.subplots(figsize=(16, 10), facecolor=STYLE_CONFIG['figure_bg'])
+    
+    alliances = ['FEYE', 'NATO', 'Adversaries', 'Close Allies & Partners']
+    colors_alliance = [COLOR_PALETTE.get(a, COLOR_PALETTE['Other']) for a in alliances]
+    
+    for idx, alliance in enumerate(alliances):
+        df_alliance = df_eci[df_eci['country_relationship'] == alliance]
+        if len(df_alliance) > 0:
+            # Group by year_month and take average ECI score
+            monthly = df_alliance.groupby('year_month')['eci_score'].mean()
+            monthly.index = pd.to_datetime(monthly.index)
+            monthly = monthly.sort_index()
+            if len(monthly) > 0:
+                ax.plot(monthly.index, monthly.values,
+                       marker='o', label=alliance,
+                       linewidth=STYLE_CONFIG['line_width'],
+                       markersize=STYLE_CONFIG['marker_size'],
+                       color=colors_alliance[idx],
+                       alpha=STYLE_CONFIG['alpha_line'],
+                       markerfacecolor=colors_alliance[idx],
+                       markeredgecolor='white', markeredgewidth=1)
+    
+    apply_gestalt_style(ax,
+                       title='ECI Score Over Time by Alliance\n(Who Has Better Performing Models?)',
+                       xlabel='Date',
+                       ylabel='Average ECI Score')
+    ax.legend(loc='best', frameon=True, shadow=STYLE_CONFIG['shadow'],
+             facecolor=STYLE_CONFIG['axes_bg'], edgecolor=STYLE_CONFIG['grid_color'],
+             framealpha=0.9)
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+    ax.xaxis.set_major_locator(mdates.MonthLocator(interval=6))
+    plt.xticks(rotation=45)
+    plt.tight_layout(pad=STYLE_CONFIG['padding'])
+    plt.savefig(f"{OUTPUT_DIR}/50_eci_score_by_alliance.png", dpi=300, bbox_inches='tight',
+                facecolor=STYLE_CONFIG['figure_bg'])
+    plt.close()
+    
+    # 2. ECI Score vs Parameters by Alliance
+    fig, ax = plt.subplots(figsize=(14, 10), facecolor=STYLE_CONFIG['figure_bg'])
+    
+    df_params_eci = df_eci[df_eci['parameters'].notna()].copy()
+    if len(df_params_eci) > 0:
+        for idx, alliance in enumerate(alliances):
+            df_alliance = df_params_eci[df_params_eci['country_relationship'] == alliance]
+            if len(df_alliance) > 0:
+                ax.scatter(df_alliance['parameters'], df_alliance['eci_score'],
+                          c=[colors_alliance[idx]], label=alliance,
+                          alpha=0.6, s=100, edgecolors='white', linewidths=2)
+        
+        ax.set_xscale('log')
+        apply_gestalt_style(ax,
+                           title='ECI Score vs Model Parameters by Alliance\n(Does Size Correlate with Performance?)',
+                           xlabel='Parameters (log scale)',
+                           ylabel='ECI Score')
+        ax.legend(loc='best', frameon=True, shadow=STYLE_CONFIG['shadow'],
+                 facecolor=STYLE_CONFIG['axes_bg'], edgecolor=STYLE_CONFIG['grid_color'],
+                 framealpha=0.9)
+        plt.tight_layout(pad=STYLE_CONFIG['padding'])
+        plt.savefig(f"{OUTPUT_DIR}/51_eci_vs_parameters.png", dpi=300, bbox_inches='tight',
+                    facecolor=STYLE_CONFIG['figure_bg'])
+        plt.close()
+    
+    # 3. Top benchmark scores by Alliance
+    # Extract benchmark scores from DataFrame
+    benchmark_names = set()
+    for _, row in df_eci.iterrows():
+        benchmark_scores = row.get('benchmark_scores')
+        if benchmark_scores and isinstance(benchmark_scores, dict):
+            benchmark_names.update(benchmark_scores.keys())
+    
+    if benchmark_names:
+        # Create a figure with subplots for top benchmarks
+        top_benchmarks = sorted(benchmark_names)[:6]  # Top 6 benchmarks
+        fig, axes = plt.subplots(2, 3, figsize=(18, 12), facecolor=STYLE_CONFIG['figure_bg'])
+        axes = axes.flatten()
+        
+        for idx, benchmark_name in enumerate(top_benchmarks):
+            ax = axes[idx]
+            
+            # Extract scores for this benchmark
+            benchmark_scores_list = []
+            for _, row in df_eci.iterrows():
+                benchmark_scores = row.get('benchmark_scores')
+                if benchmark_scores and isinstance(benchmark_scores, dict):
+                    if benchmark_name in benchmark_scores:
+                        benchmark_scores_list.append({
+                            'alliance': row['country_relationship'],
+                            'score': benchmark_scores[benchmark_name]
+                        })
+            
+            if benchmark_scores_list:
+                benchmark_df = pd.DataFrame(benchmark_scores_list)
+                alliance_avg = benchmark_df.groupby('alliance')['score'].mean()
+                alliance_avg = alliance_avg[[a for a in alliances if a in alliance_avg.index]]
+                
+                if len(alliance_avg) > 0:
+                    bars = ax.bar(alliance_avg.index, alliance_avg.values,
+                                 color=[colors_alliance[alliances.index(a)] for a in alliance_avg.index],
+                                 width=STYLE_CONFIG['bar_width'],
+                                 edgecolor='white', linewidth=STYLE_CONFIG['border_width'],
+                                 alpha=STYLE_CONFIG['alpha_line'])
+                    
+                    ax.set_title(f'{benchmark_name}\n(Average Score)', fontsize=11, fontweight='bold')
+                    ax.set_ylabel('Average Score', fontsize=9)
+                    ax.grid(axis='y', alpha=STYLE_CONFIG['grid_alpha'])
+                    plt.setp(ax.xaxis.get_majorticklabels(), rotation=45, ha='right', fontsize=8)
+                    
+                    # Add value labels
+                    for bar in bars:
+                        height = bar.get_height()
+                        ax.text(bar.get_x() + bar.get_width()/2., height,
+                               f'{height:.2f}', ha='center', va='bottom',
+                               fontweight='bold', fontsize=8)
+        
+        plt.suptitle('Benchmark Performance by Alliance\n(Who Performs Better on Key Benchmarks?)',
+                    fontsize=16, fontweight='bold', y=0.995)
+        plt.tight_layout(pad=STYLE_CONFIG['padding'])
+        plt.savefig(f"{OUTPUT_DIR}/52_benchmark_scores_by_alliance.png", dpi=300, bbox_inches='tight',
+                    facecolor=STYLE_CONFIG['figure_bg'])
+        plt.close()
+
 def main():
     """Main function to generate all visualizations."""
     # Create output directory
@@ -1490,6 +1720,13 @@ def main():
     
     # Load data
     data = load_data()
+    
+    # Load and merge benchmark data
+    benchmark_data = load_benchmark_data()
+    if benchmark_data:
+        print("Merging benchmark data with model data...")
+        data = merge_benchmark_data(data, benchmark_data)
+        print(f"Merged benchmark data. Models with ECI scores: {sum(1 for m in data if m.get('eci_score'))}")
     
     # Prepare DataFrame
     df = prepare_dataframe(data)
@@ -1514,6 +1751,9 @@ def main():
     plot_combined_analysis(df)
     plot_matrix_visualizations(df)
     plot_bubble_visualizations(df)
+    
+    # Generate benchmark overlay visualizations
+    plot_benchmark_overlays(df)
 
 if __name__ == "__main__":
     main()

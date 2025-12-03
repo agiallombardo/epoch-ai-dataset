@@ -19,17 +19,17 @@ SOURCE TYPE DISTRIBUTION:
 
 COUNTRY RELATIONSHIP DISTRIBUTION:
 ----------------------------------------
-  Private Partnership: 438 (71.9%)
+  Private Partnership: 457 (75.0%)
   Adversaries: 98 (16.1%)
-  FEYE: 32 (5.3%)
   Close Allies & Partners: 28 (4.6%)
+  FEYE: 13 (2.1%)
   NATO: 13 (2.1%)
 
 TOP 10 COUNTRIES:
 ----------------------------------------
-  United States: 391 (64.2%)
+  United States: 410 (67.3%)
   China: 119 (19.5%)
-  United Kingdom: 36 (5.9%)
+  United Kingdom: 17 (2.8%)
   Korea (Republic of): 12 (2.0%)
   Germany: 10 (1.6%)
   France: 7 (1.1%)
