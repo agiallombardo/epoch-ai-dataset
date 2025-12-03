@@ -165,7 +165,7 @@ def load_benchmark_data() -> Optional[Dict]:
         return json.load(f)
 
 def normalize_model_name_for_matching(name: str) -> str:
-    """Normalize model name for matching (same logic as process_benchmark_data.py)."""
+    """Normalize model name for matching (same logic as merge_eci_scores.py)."""
     if not name:
         return ""
     import re
@@ -1721,12 +1721,17 @@ def main():
     # Load data
     data = load_data()
     
-    # Load and merge benchmark data
+    # ECI scores are now already merged into the model data by merge_eci_scores.py
+    # Check if we have ECI scores in the data
+    models_with_eci = sum(1 for m in data if m.get('eci_score') is not None)
+    if models_with_eci > 0:
+        print(f"Found {models_with_eci} models with ECI scores already merged")
+    
+    # Optionally load additional benchmark data for individual benchmark scores
     benchmark_data = load_benchmark_data()
     if benchmark_data:
-        print("Merging benchmark data with model data...")
+        print("Merging additional benchmark data (individual benchmarks)...")
         data = merge_benchmark_data(data, benchmark_data)
-        print(f"Merged benchmark data. Models with ECI scores: {sum(1 for m in data if m.get('eci_score'))}")
     
     # Prepare DataFrame
     df = prepare_dataframe(data)

@@ -25,7 +25,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-11"
+    "yearMonth": "2025-11",
+    "eci_score": null
   },
   {
     "model": "Gemini 3 Pro",
@@ -52,7 +53,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-11"
+    "yearMonth": "2025-11",
+    "eci_score": 154.35662248487947
   },
   {
     "model": "GPT-5.1",
@@ -83,7 +85,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-11"
+    "yearMonth": "2025-11",
+    "eci_score": 151.30095489691575
   },
   {
     "model": "Kimi K2 Thinking",
@@ -111,7 +114,8 @@
     "modelCapacity": "Massive (≥1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-11"
+    "yearMonth": "2025-11",
+    "eci_score": null
   },
   {
     "model": "Tongyi DeepResearch",
@@ -139,7 +143,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-10"
+    "yearMonth": "2025-10",
+    "eci_score": null
   },
   {
     "model": "MiniMax-M2",
@@ -167,7 +172,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-10"
+    "yearMonth": "2025-10",
+    "eci_score": null
   },
   {
     "model": "Veo 3.1",
@@ -194,7 +200,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-10"
+    "yearMonth": "2025-10",
+    "eci_score": null
   },
   {
     "model": "Claude Haiku 4.5",
@@ -222,7 +229,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-10"
+    "yearMonth": "2025-10",
+    "eci_score": 141.73863998137205
   },
   {
     "model": "Ling-1T",
@@ -250,7 +258,8 @@
     "modelCapacity": "Massive (≥1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-10"
+    "yearMonth": "2025-10",
+    "eci_score": null
   },
   {
     "model": "GPT-5 Pro",
@@ -278,7 +287,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-10"
+    "yearMonth": "2025-10",
+    "eci_score": 151.0913582411909
   },
   {
     "model": "Sora 2.0",
@@ -306,7 +316,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-09"
+    "yearMonth": "2025-09",
+    "eci_score": null
   },
   {
     "model": "GLM 4.6",
@@ -343,7 +354,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Other",
     "year": 2025,
-    "yearMonth": "2025-09"
+    "yearMonth": "2025-09",
+    "eci_score": null
   },
   {
     "model": "Claude Sonnet 4.5",
@@ -371,7 +383,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-09"
+    "yearMonth": "2025-09",
+    "eci_score": 144.9060917306518
   },
   {
     "model": "Gemini Robotics-ER 1.5",
@@ -398,7 +411,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-09"
+    "yearMonth": "2025-09",
+    "eci_score": null
   },
   {
     "model": "Qwen3-Omni-30B-A3B",
@@ -426,7 +440,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-09"
+    "yearMonth": "2025-09",
+    "eci_score": null
   },
   {
     "model": "AgentFounder-30B",
@@ -454,7 +469,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-09"
+    "yearMonth": "2025-09",
+    "eci_score": null
   },
   {
     "model": "Qwen3-Max",
@@ -485,7 +501,8 @@
     "modelCapacity": "Massive (≥1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-09"
+    "yearMonth": "2025-09",
+    "eci_score": 142.8258639601152
   },
   {
     "model": "LongCat-Flash",
@@ -513,7 +530,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-09"
+    "yearMonth": "2025-09",
+    "eci_score": null
   },
   {
     "model": "Gemini 2.5 Flash Image (Nano Banana)",
@@ -541,7 +559,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-08"
+    "yearMonth": "2025-08",
+    "eci_score": null
   },
   {
     "model": "GPT-5 nano",
@@ -569,7 +588,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-08"
+    "yearMonth": "2025-08",
+    "eci_score": 142.93910015622072
   },
   {
     "model": "GPT-5 mini",
@@ -597,7 +617,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-08"
+    "yearMonth": "2025-08",
+    "eci_score": 147.03669545536573
   },
   {
     "model": "GPT-5",
@@ -625,7 +646,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-08"
+    "yearMonth": "2025-08",
+    "eci_score": 150.71550473923938
   },
   {
     "model": "gpt-oss-120b",
@@ -653,7 +675,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-08"
+    "yearMonth": "2025-08",
+    "eci_score": null
   },
   {
     "model": "gpt-oss-20b",
@@ -681,7 +704,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-08"
+    "yearMonth": "2025-08",
+    "eci_score": null
   },
   {
     "model": "GLM 4.5",
@@ -719,7 +743,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Other",
     "year": 2025,
-    "yearMonth": "2025-08"
+    "yearMonth": "2025-08",
+    "eci_score": null
   },
   {
     "model": "Claude Opus 4.1",
@@ -747,7 +772,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-08"
+    "yearMonth": "2025-08",
+    "eci_score": 142.53800833739888
   },
   {
     "model": "Qwen Image",
@@ -775,7 +801,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-08"
+    "yearMonth": "2025-08",
+    "eci_score": null
   },
   {
     "model": "Hierarchical Reasoning Model (HPM)",
@@ -803,7 +830,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2025,
-    "yearMonth": "2025-08"
+    "yearMonth": "2025-08",
+    "eci_score": null
   },
   {
     "model": "MindLink-72B",
@@ -831,7 +859,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-08"
+    "yearMonth": "2025-08",
+    "eci_score": null
   },
   {
     "model": "Gemini 2.5 Deep Think",
@@ -858,7 +887,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-08"
+    "yearMonth": "2025-08",
+    "eci_score": null
   },
   {
     "model": "Qwen3-Coder-480B-A35B",
@@ -886,7 +916,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-07"
+    "yearMonth": "2025-07",
+    "eci_score": null
   },
   {
     "model": "EXAONE 4.0 (32B)",
@@ -914,7 +945,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-07"
+    "yearMonth": "2025-07",
+    "eci_score": null
   },
   {
     "model": "Gemini Embedding",
@@ -941,7 +973,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-07"
+    "yearMonth": "2025-07",
+    "eci_score": null
   },
   {
     "model": "Kimi K2",
@@ -969,7 +1002,8 @@
     "modelCapacity": "Massive (≥1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-07"
+    "yearMonth": "2025-07",
+    "eci_score": 139.38024102730586
   },
   {
     "model": "Grok 4 Heavy",
@@ -997,7 +1031,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-07"
+    "yearMonth": "2025-07",
+    "eci_score": null
   },
   {
     "model": "Grok 4",
@@ -1025,7 +1060,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-07"
+    "yearMonth": "2025-07",
+    "eci_score": 147.44612522899772
   },
   {
     "model": "EXAONE Path 2.0",
@@ -1053,7 +1089,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-07"
+    "yearMonth": "2025-07",
+    "eci_score": null
   },
   {
     "model": "dots.llm1",
@@ -1081,7 +1118,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-07"
+    "yearMonth": "2025-07",
+    "eci_score": null
   },
   {
     "model": "FGN",
@@ -1108,7 +1146,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-06"
+    "yearMonth": "2025-06",
+    "eci_score": null
   },
   {
     "model": "Seed-1.6-Thinking",
@@ -1136,7 +1175,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-06"
+    "yearMonth": "2025-06",
+    "eci_score": null
   },
   {
     "model": "Qwen3 Embedding",
@@ -1164,7 +1204,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-06"
+    "yearMonth": "2025-06",
+    "eci_score": null
   },
   {
     "model": "Claude Sonnet 4",
@@ -1195,7 +1236,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-05"
+    "yearMonth": "2025-05",
+    "eci_score": 142.04688022583906
   },
   {
     "model": "Claude Opus 4",
@@ -1226,7 +1268,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-05"
+    "yearMonth": "2025-05",
+    "eci_score": 141.69449945526242
   },
   {
     "model": "Veo 3",
@@ -1253,7 +1296,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-05"
+    "yearMonth": "2025-05",
+    "eci_score": null
   },
   {
     "model": "Imagen 4",
@@ -1281,7 +1325,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-05"
+    "yearMonth": "2025-05",
+    "eci_score": null
   },
   {
     "model": "Seed1.5-VL",
@@ -1309,7 +1354,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-05"
+    "yearMonth": "2025-05",
+    "eci_score": null
   },
   {
     "model": "Qwen3-235B-A22B",
@@ -1340,7 +1386,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-04"
+    "yearMonth": "2025-04",
+    "eci_score": 137.26553309904727
   },
   {
     "model": "gpt-image-1",
@@ -1368,7 +1415,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-04"
+    "yearMonth": "2025-04",
+    "eci_score": null
   },
   {
     "model": "Pangu Ultra",
@@ -1396,7 +1444,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-04"
+    "yearMonth": "2025-04",
+    "eci_score": null
   },
   {
     "model": "Llama 4 Scout",
@@ -1423,7 +1472,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-04"
+    "yearMonth": "2025-04",
+    "eci_score": 130.06942557369075
   },
   {
     "model": "Llama 4 Maverick",
@@ -1450,7 +1500,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-04"
+    "yearMonth": "2025-04",
+    "eci_score": 134.19076431745415
   },
   {
     "model": "Llama 4 Behemoth (preview)",
@@ -1477,7 +1528,8 @@
     "modelCapacity": "Massive (≥1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-04"
+    "yearMonth": "2025-04",
+    "eci_score": null
   },
   {
     "model": "Gemini 2.5 Pro",
@@ -1504,7 +1556,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-03"
+    "yearMonth": "2025-03",
+    "eci_score": 148.0831144110257
   },
   {
     "model": "Diffusion Renderer",
@@ -1543,7 +1596,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2025,
-    "yearMonth": "2025-03"
+    "yearMonth": "2025-03",
+    "eci_score": null
   },
   {
     "model": "EXAONE Deep 32B",
@@ -1571,7 +1625,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-03"
+    "yearMonth": "2025-03",
+    "eci_score": null
   },
   {
     "model": "ERNIE-4.5-VL-424B-A47B (文心大模型4.5)",
@@ -1603,7 +1658,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-03"
+    "yearMonth": "2025-03",
+    "eci_score": null
   },
   {
     "model": "Hunyuan-TurboS",
@@ -1634,7 +1690,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-03"
+    "yearMonth": "2025-03",
+    "eci_score": null
   },
   {
     "model": "QwQ-32B",
@@ -1662,7 +1719,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-03"
+    "yearMonth": "2025-03",
+    "eci_score": null
   },
   {
     "model": "Mistral OCR",
@@ -1690,7 +1748,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-03"
+    "yearMonth": "2025-03",
+    "eci_score": null
   },
   {
     "model": "Mercury",
@@ -1718,7 +1777,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-02"
+    "yearMonth": "2025-02",
+    "eci_score": null
   },
   {
     "model": "GPT-4.5",
@@ -1746,7 +1806,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-02"
+    "yearMonth": "2025-02",
+    "eci_score": 137.13275917234594
   },
   {
     "model": "Claude 3.7 Sonnet",
@@ -1774,7 +1835,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-02"
+    "yearMonth": "2025-02",
+    "eci_score": 140.87234100908552
   },
   {
     "model": "Grok 3",
@@ -1802,7 +1864,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-02"
+    "yearMonth": "2025-02",
+    "eci_score": 139.6025109349968
   },
   {
     "model": "Eurus-2-7B-PRIME",
@@ -1840,7 +1903,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2025,
-    "yearMonth": "2025-02"
+    "yearMonth": "2025-02",
+    "eci_score": null
   },
   {
     "model": "o3-mini",
@@ -1868,7 +1932,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-01"
+    "yearMonth": "2025-01",
+    "eci_score": 142.11660252556564
   },
   {
     "model": "Computer-Using Agent (CUA)",
@@ -1899,7 +1964,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-01"
+    "yearMonth": "2025-01",
+    "eci_score": null
   },
   {
     "model": "Kimi k1.5",
@@ -1927,7 +1993,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-01"
+    "yearMonth": "2025-01",
+    "eci_score": null
   },
   {
     "model": "Doubao-1.5-pro",
@@ -1955,7 +2022,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-01"
+    "yearMonth": "2025-01",
+    "eci_score": null
   },
   {
     "model": "Eagle 2",
@@ -1997,7 +2065,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2025,
-    "yearMonth": "2025-01"
+    "yearMonth": "2025-01",
+    "eci_score": null
   },
   {
     "model": "DeepSeek-R1",
@@ -2025,7 +2094,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-01"
+    "yearMonth": "2025-01",
+    "eci_score": 141.59927945294606
   },
   {
     "model": "INTELLECT-MATH",
@@ -2053,7 +2123,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2025,
-    "yearMonth": "2025-01"
+    "yearMonth": "2025-01",
+    "eci_score": null
   },
   {
     "model": "Stable Point Aware 3D (SPAR3D)",
@@ -2090,7 +2161,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2025,
-    "yearMonth": "2025-01"
+    "yearMonth": "2025-01",
+    "eci_score": null
   },
   {
     "model": "STORM-B/8",
@@ -2126,7 +2198,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-12"
+    "yearMonth": "2024-12",
+    "eci_score": null
   },
   {
     "model": "DeepSeek-V3",
@@ -2154,7 +2227,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-12"
+    "yearMonth": "2024-12",
+    "eci_score": 137.21709699854208
   },
   {
     "model": "o3",
@@ -2187,7 +2261,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-12"
+    "yearMonth": "2024-12",
+    "eci_score": 147.536578847891
   },
   {
     "model": "Veo 2",
@@ -2214,7 +2289,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-12"
+    "yearMonth": "2024-12",
+    "eci_score": null
   },
   {
     "model": "Apollo 7B",
@@ -2247,7 +2323,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-12"
+    "yearMonth": "2024-12",
+    "eci_score": null
   },
   {
     "model": "Gemini 2.0 Pro",
@@ -2274,7 +2351,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-12"
+    "yearMonth": "2024-12",
+    "eci_score": 135.21353111106174
   },
   {
     "model": "Sora Turbo",
@@ -2302,7 +2380,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-12"
+    "yearMonth": "2024-12",
+    "eci_score": null
   },
   {
     "model": "EXAONE 3.5 32B",
@@ -2330,7 +2409,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-12"
+    "yearMonth": "2024-12",
+    "eci_score": null
   },
   {
     "model": "Llama 3.3 70B",
@@ -2357,7 +2437,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-12"
+    "yearMonth": "2024-12",
+    "eci_score": 126.8551494341873
   },
   {
     "model": "o1",
@@ -2385,7 +2466,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-12"
+    "yearMonth": "2024-12",
+    "eci_score": 142.83914826829536
   },
   {
     "model": "NVILA 15B",
@@ -2426,7 +2508,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-12"
+    "yearMonth": "2024-12",
+    "eci_score": null
   },
   {
     "model": "Infinity",
@@ -2454,7 +2537,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-12"
+    "yearMonth": "2024-12",
+    "eci_score": null
   },
   {
     "model": "Amazon Nova Pro",
@@ -2482,7 +2566,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-12"
+    "yearMonth": "2024-12",
+    "eci_score": null
   },
   {
     "model": "Fugatto 1",
@@ -2510,7 +2595,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-11"
+    "yearMonth": "2024-11",
+    "eci_score": null
   },
   {
     "model": "Suno v4",
@@ -2538,7 +2624,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-11"
+    "yearMonth": "2024-11",
+    "eci_score": null
   },
   {
     "model": "Pixtral Large",
@@ -2566,7 +2653,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-11"
+    "yearMonth": "2024-11",
+    "eci_score": null
   },
   {
     "model": "k0-math",
@@ -2594,7 +2682,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-11"
+    "yearMonth": "2024-11",
+    "eci_score": null
   },
   {
     "model": "Gemini-Exp-1114",
@@ -2621,7 +2710,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-11"
+    "yearMonth": "2024-11",
+    "eci_score": null
   },
   {
     "model": "SeedEdit",
@@ -2649,7 +2739,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-11"
+    "yearMonth": "2024-11",
+    "eci_score": null
   },
   {
     "model": "Hunyuan-Large",
@@ -2677,7 +2768,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-11"
+    "yearMonth": "2024-11",
+    "eci_score": null
   },
   {
     "model": "Doubao-pro",
@@ -2705,7 +2797,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-10"
+    "yearMonth": "2024-10",
+    "eci_score": null
   },
   {
     "model": "NVLM-X 72B",
@@ -2736,7 +2829,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-10"
+    "yearMonth": "2024-10",
+    "eci_score": null
   },
   {
     "model": "NVLM-H 72B",
@@ -2767,7 +2861,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-10"
+    "yearMonth": "2024-10",
+    "eci_score": null
   },
   {
     "model": "NVLM-D 72B",
@@ -2798,7 +2893,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-10"
+    "yearMonth": "2024-10",
+    "eci_score": null
   },
   {
     "model": "Yi-Lightning",
@@ -2826,7 +2922,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-10"
+    "yearMonth": "2024-10",
+    "eci_score": null
   },
   {
     "model": "CHAI-1",
@@ -2854,7 +2951,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-10"
+    "yearMonth": "2024-10",
+    "eci_score": null
   },
   {
     "model": "RDT-1B",
@@ -2882,7 +2980,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2024,
-    "yearMonth": "2024-10"
+    "yearMonth": "2024-10",
+    "eci_score": null
   },
   {
     "model": "Palmyra X 004",
@@ -2910,7 +3009,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-10"
+    "yearMonth": "2024-10",
+    "eci_score": null
   },
   {
     "model": "GR-2",
@@ -2938,7 +3038,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-10"
+    "yearMonth": "2024-10",
+    "eci_score": null
   },
   {
     "model": "Movie Gen Video",
@@ -2965,7 +3066,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-10"
+    "yearMonth": "2024-10",
+    "eci_score": null
   },
   {
     "model": "PixelDance",
@@ -2993,7 +3095,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-09"
+    "yearMonth": "2024-09",
+    "eci_score": null
   },
   {
     "model": "Llama 3.2 11B",
@@ -3023,7 +3126,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-09"
+    "yearMonth": "2024-09",
+    "eci_score": null
   },
   {
     "model": "Telechat2-115B",
@@ -3051,7 +3155,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-09"
+    "yearMonth": "2024-09",
+    "eci_score": null
   },
   {
     "model": "Qwen2.5-72B",
@@ -3079,7 +3184,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-09"
+    "yearMonth": "2024-09",
+    "eci_score": 129.70087235486136
   },
   {
     "model": "Qwen2.5 Instruct (72B)",
@@ -3107,7 +3213,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-09"
+    "yearMonth": "2024-09",
+    "eci_score": null
   },
   {
     "model": "Oryx 34B",
@@ -3145,7 +3252,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-09"
+    "yearMonth": "2024-09",
+    "eci_score": null
   },
   {
     "model": "Qwen2.5-32B",
@@ -3173,7 +3281,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-09"
+    "yearMonth": "2024-09",
+    "eci_score": null
   },
   {
     "model": "o1-preview",
@@ -3201,7 +3310,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-09"
+    "yearMonth": "2024-09",
+    "eci_score": 135.35676167778314
   },
   {
     "model": "o1-mini",
@@ -3229,7 +3339,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-09"
+    "yearMonth": "2024-09",
+    "eci_score": 138.00833350602082
   },
   {
     "model": "DeepSeek-V2.5",
@@ -3257,7 +3368,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-09"
+    "yearMonth": "2024-09",
+    "eci_score": null
   },
   {
     "model": "Hunyuan Turbo",
@@ -3285,7 +3397,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-09"
+    "yearMonth": "2024-09",
+    "eci_score": null
   },
   {
     "model": "Harrison.rad.1",
@@ -3313,7 +3426,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-09"
+    "yearMonth": "2024-09",
+    "eci_score": null
   },
   {
     "model": "AlphaProteo",
@@ -3340,7 +3454,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-09"
+    "yearMonth": "2024-09",
+    "eci_score": null
   },
   {
     "model": "Hairuo",
@@ -3368,7 +3483,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-08"
+    "yearMonth": "2024-08",
+    "eci_score": null
   },
   {
     "model": "GLM-4-Plus",
@@ -3396,7 +3512,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-08"
+    "yearMonth": "2024-08",
+    "eci_score": null
   },
   {
     "model": "Jamba 1.5-Large",
@@ -3424,7 +3541,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-08"
+    "yearMonth": "2024-08",
+    "eci_score": null
   },
   {
     "model": "Grok-2",
@@ -3452,7 +3570,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-08"
+    "yearMonth": "2024-08",
+    "eci_score": 130.4894395327878
   },
   {
     "model": "Table Tennis Agent",
@@ -3479,7 +3598,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-08"
+    "yearMonth": "2024-08",
+    "eci_score": null
   },
   {
     "model": "LLaVA-OV-72B",
@@ -3519,7 +3639,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-08"
+    "yearMonth": "2024-08",
+    "eci_score": null
   },
   {
     "model": "AFM-server",
@@ -3547,7 +3668,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-07"
+    "yearMonth": "2024-07",
+    "eci_score": null
   },
   {
     "model": "AFM-on-device",
@@ -3575,7 +3697,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-07"
+    "yearMonth": "2024-07",
+    "eci_score": null
   },
   {
     "model": "Mistral Large 2",
@@ -3606,7 +3729,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-07"
+    "yearMonth": "2024-07",
+    "eci_score": 128.40621782831866
   },
   {
     "model": "Llama 3.1-405B",
@@ -3633,7 +3757,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-07"
+    "yearMonth": "2024-07",
+    "eci_score": 130.50495449571338
   },
   {
     "model": "GPT-4o mini",
@@ -3661,7 +3786,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-07"
+    "yearMonth": "2024-07",
+    "eci_score": 126.293960574252
   },
   {
     "model": "Mathstral",
@@ -3689,7 +3815,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-07"
+    "yearMonth": "2024-07",
+    "eci_score": null
   },
   {
     "model": "DeepL LLM",
@@ -3721,7 +3848,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-07"
+    "yearMonth": "2024-07",
+    "eci_score": null
   },
   {
     "model": "SenseChat 5.5",
@@ -3749,7 +3877,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-07"
+    "yearMonth": "2024-07",
+    "eci_score": null
   },
   {
     "model": "Ernie 4.0 Turbo",
@@ -3780,7 +3909,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-06"
+    "yearMonth": "2024-06",
+    "eci_score": null
   },
   {
     "model": "ESM3 (98B)",
@@ -3814,7 +3944,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-06"
+    "yearMonth": "2024-06",
+    "eci_score": null
   },
   {
     "model": "Cambrian-1-34B",
@@ -3845,7 +3976,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Public",
     "year": 2024,
-    "yearMonth": "2024-06"
+    "yearMonth": "2024-06",
+    "eci_score": null
   },
   {
     "model": "Claude 3.5 Sonnet",
@@ -3873,7 +4005,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-06"
+    "yearMonth": "2024-06",
+    "eci_score": 130.0
   },
   {
     "model": "DeepSeek-Coder-V2 236B",
@@ -3901,7 +4034,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-06"
+    "yearMonth": "2024-06",
+    "eci_score": null
   },
   {
     "model": "Nemotron-4 340B",
@@ -3929,7 +4063,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-06"
+    "yearMonth": "2024-06",
+    "eci_score": null
   },
   {
     "model": "OpenVLA",
@@ -3962,7 +4097,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-06"
+    "yearMonth": "2024-06",
+    "eci_score": null
   },
   {
     "model": "Llama-3.1-Nemotron-70B-Instruct",
@@ -3989,7 +4125,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-06"
+    "yearMonth": "2024-06",
+    "eci_score": null
   },
   {
     "model": "Qwen2-72B",
@@ -4017,7 +4154,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-06"
+    "yearMonth": "2024-06",
+    "eci_score": 125.04427714664482
   },
   {
     "model": "ALLaM adapted 70B",
@@ -4048,7 +4186,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-05"
+    "yearMonth": "2024-05",
+    "eci_score": null
   },
   {
     "model": "ALLaM 7B",
@@ -4079,7 +4218,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-05"
+    "yearMonth": "2024-05",
+    "eci_score": null
   },
   {
     "model": "Octo-Base",
@@ -4112,7 +4252,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-05"
+    "yearMonth": "2024-05",
+    "eci_score": null
   },
   {
     "model": "GLM-4 (0520)",
@@ -4140,7 +4281,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-05"
+    "yearMonth": "2024-05",
+    "eci_score": null
   },
   {
     "model": "Yi-Large",
@@ -4168,7 +4310,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-05"
+    "yearMonth": "2024-05",
+    "eci_score": null
   },
   {
     "model": "GPT-4o",
@@ -4196,7 +4339,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-05"
+    "yearMonth": "2024-05",
+    "eci_score": 128.8617803897407
   },
   {
     "model": "AlphaFold 3",
@@ -4226,7 +4370,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-05"
+    "yearMonth": "2024-05",
+    "eci_score": null
   },
   {
     "model": "VILA1.5-13B",
@@ -4263,7 +4408,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-05"
+    "yearMonth": "2024-05",
+    "eci_score": null
   },
   {
     "model": "GenCast",
@@ -4290,7 +4436,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-05"
+    "yearMonth": "2024-05",
+    "eci_score": null
   },
   {
     "model": "Llama 3-70B",
@@ -4317,7 +4464,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-04"
+    "yearMonth": "2024-04",
+    "eci_score": 117.59568918754692
   },
   {
     "model": "Reka Core",
@@ -4349,7 +4497,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-04"
+    "yearMonth": "2024-04",
+    "eci_score": null
   },
   {
     "model": "ReALM",
@@ -4377,7 +4526,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-03"
+    "yearMonth": "2024-03",
+    "eci_score": null
   },
   {
     "model": "DBRX",
@@ -4405,7 +4555,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-03"
+    "yearMonth": "2024-03",
+    "eci_score": null
   },
   {
     "model": "MM1-30B",
@@ -4436,7 +4587,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-03"
+    "yearMonth": "2024-03",
+    "eci_score": null
   },
   {
     "model": "ManiGaussian",
@@ -4472,7 +4624,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2024,
-    "yearMonth": "2024-03"
+    "yearMonth": "2024-03",
+    "eci_score": null
   },
   {
     "model": "Inflection-2.5",
@@ -4500,7 +4653,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-03"
+    "yearMonth": "2024-03",
+    "eci_score": null
   },
   {
     "model": "Claude 3 Sonnet",
@@ -4532,7 +4686,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-03"
+    "yearMonth": "2024-03",
+    "eci_score": 119.39948461808694
   },
   {
     "model": "Claude 3 Opus",
@@ -4564,7 +4719,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-03"
+    "yearMonth": "2024-03",
+    "eci_score": 126.54545246610402
   },
   {
     "model": "Aramco Metabrain AI",
@@ -4595,7 +4751,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-03"
+    "yearMonth": "2024-03",
+    "eci_score": null
   },
   {
     "model": "Mistral Large",
@@ -4626,7 +4783,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-02"
+    "yearMonth": "2024-02",
+    "eci_score": null
   },
   {
     "model": "MegaScale (Production)",
@@ -4663,7 +4821,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-02"
+    "yearMonth": "2024-02",
+    "eci_score": null
   },
   {
     "model": "Stable Diffusion 3",
@@ -4691,7 +4850,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-02"
+    "yearMonth": "2024-02",
+    "eci_score": null
   },
   {
     "model": "Sora",
@@ -4719,7 +4879,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-02"
+    "yearMonth": "2024-02",
+    "eci_score": null
   },
   {
     "model": "Gemini 1.5 Pro",
@@ -4746,7 +4907,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-02"
+    "yearMonth": "2024-02",
+    "eci_score": 132.33959747400257
   },
   {
     "model": "Aya",
@@ -4786,7 +4948,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-02"
+    "yearMonth": "2024-02",
+    "eci_score": null
   },
   {
     "model": "Qwen1.5-72B",
@@ -4814,7 +4977,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-02"
+    "yearMonth": "2024-02",
+    "eci_score": null
   },
   {
     "model": "Qwen-VL-Max",
@@ -4842,7 +5006,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-01"
+    "yearMonth": "2024-01",
+    "eci_score": null
   },
   {
     "model": "AlphaGeometry",
@@ -4875,7 +5040,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2024,
-    "yearMonth": "2024-01"
+    "yearMonth": "2024-01",
+    "eci_score": null
   },
   {
     "model": "Palmyra X 003",
@@ -4903,7 +5069,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-01"
+    "yearMonth": "2024-01",
+    "eci_score": null
   },
   {
     "model": "Kimi Explorer",
@@ -4931,7 +5098,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2024,
-    "yearMonth": "2024-01"
+    "yearMonth": "2024-01",
+    "eci_score": null
   },
   {
     "model": "CoRe",
@@ -4959,7 +5127,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": null
   },
   {
     "model": "GQA-8-XXL",
@@ -4986,7 +5155,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": null
   },
   {
     "model": "nekomata-14b",
@@ -5014,7 +5184,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": null
   },
   {
     "model": "Gemini Nano-2",
@@ -5041,7 +5212,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": null
   },
   {
     "model": "Gemini Nano-1",
@@ -5068,7 +5240,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": null
   },
   {
     "model": "FunSearch",
@@ -5095,7 +5268,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": null
   },
   {
     "model": "CogAgent",
@@ -5129,7 +5303,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": null
   },
   {
     "model": "VILA-13B",
@@ -5166,7 +5341,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": null
   },
   {
     "model": "W.A.L.T",
@@ -5196,7 +5372,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": null
   },
   {
     "model": "Mixtral 8x7B",
@@ -5227,7 +5404,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": 119.3472807944632
   },
   {
     "model": "SeamlessM4T",
@@ -5268,7 +5446,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": null
   },
   {
     "model": "Llama Guard",
@@ -5295,7 +5474,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": null
   },
   {
     "model": "Gemini 1.0 Ultra",
@@ -5322,7 +5502,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": null
   },
   {
     "model": "Gemini 1.0 Pro",
@@ -5349,7 +5530,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": 116.20561250527648
   },
   {
     "model": "Mamba-24M (SC09)",
@@ -5380,7 +5562,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-12"
+    "yearMonth": "2023-12",
+    "eci_score": null
   },
   {
     "model": "Qwen-72B",
@@ -5408,7 +5591,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "PPLX-70B-Online",
@@ -5436,7 +5620,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "GNoME for crystal discovery",
@@ -5463,7 +5648,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "Inflection-2",
@@ -5491,7 +5677,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "Claude 2.1",
@@ -5519,7 +5706,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": 117.3543173034603
   },
   {
     "model": "AndesGPT",
@@ -5547,7 +5735,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "Nemotron-3-8B",
@@ -5575,7 +5764,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "Qwen-Audio-Chat",
@@ -5603,7 +5793,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "GraphCast",
@@ -5630,7 +5821,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "Volcano 13B",
@@ -5665,7 +5857,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "SPHINX (Llama 2 13B)",
@@ -5704,7 +5897,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "RoFormer",
@@ -5732,7 +5926,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "MultiBand Diffusion",
@@ -5766,7 +5961,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "OmniVec",
@@ -5794,7 +5990,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "mPLUG-Owl2",
@@ -5822,7 +6019,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "GPT-4 Turbo",
@@ -5850,7 +6048,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": 127.09126406131224
   },
   {
     "model": "CogVLM-17B",
@@ -5885,7 +6084,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "LLaVA 1.5",
@@ -5919,7 +6119,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "Grok-1",
@@ -5950,7 +6151,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "RT-Trajectory",
@@ -5983,7 +6185,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "BLUUMI",
@@ -6020,7 +6223,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "Yi-34B",
@@ -6048,7 +6252,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": 116.96082399414011
   },
   {
     "model": "Cohere Embed",
@@ -6076,7 +6281,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-11"
+    "yearMonth": "2023-11",
+    "eci_score": null
   },
   {
     "model": "Skywork-13B",
@@ -6104,7 +6310,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-10"
+    "yearMonth": "2023-10",
+    "eci_score": null
   },
   {
     "model": "ChatGLM3-6B",
@@ -6132,7 +6339,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-10"
+    "yearMonth": "2023-10",
+    "eci_score": null
   },
   {
     "model": "DiT-XL/2 + CADS",
@@ -6169,7 +6377,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-10"
+    "yearMonth": "2023-10",
+    "eci_score": null
   },
   {
     "model": "CODEFUSION (Python)",
@@ -6200,7 +6409,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-10"
+    "yearMonth": "2023-10",
+    "eci_score": null
   },
   {
     "model": "DALL·E 3",
@@ -6228,7 +6438,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-10"
+    "yearMonth": "2023-10",
+    "eci_score": null
   },
   {
     "model": "PaLI-3",
@@ -6265,7 +6476,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-10"
+    "yearMonth": "2023-10",
+    "eci_score": null
   },
   {
     "model": "ERNIE 4.0",
@@ -6296,7 +6508,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-10"
+    "yearMonth": "2023-10",
+    "eci_score": null
   },
   {
     "model": "RT-2-X",
@@ -6323,7 +6536,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-10"
+    "yearMonth": "2023-10",
+    "eci_score": null
   },
   {
     "model": "Ferret (13B)",
@@ -6357,7 +6571,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-10"
+    "yearMonth": "2023-10",
+    "eci_score": null
   },
   {
     "model": "RoseTTAFold All-Atom (RFAA)",
@@ -6393,7 +6608,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-10"
+    "yearMonth": "2023-10",
+    "eci_score": null
   },
   {
     "model": "FinGPT-13B",
@@ -6425,7 +6641,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-10"
+    "yearMonth": "2023-10",
+    "eci_score": null
   },
   {
     "model": "CTM (CIFAR-10)",
@@ -6462,7 +6679,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-10"
+    "yearMonth": "2023-10",
+    "eci_score": null
   },
   {
     "model": "Amazon Titan",
@@ -6490,7 +6708,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-09"
+    "yearMonth": "2023-09",
+    "eci_score": null
   },
   {
     "model": "Show-1",
@@ -6518,7 +6737,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-09"
+    "yearMonth": "2023-09",
+    "eci_score": null
   },
   {
     "model": "GPT-4V",
@@ -6546,7 +6766,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-09"
+    "yearMonth": "2023-09",
+    "eci_score": null
   },
   {
     "model": "AlphaMissense",
@@ -6573,7 +6794,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-09"
+    "yearMonth": "2023-09",
+    "eci_score": null
   },
   {
     "model": "Robot Parkour",
@@ -6609,7 +6831,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-09"
+    "yearMonth": "2023-09",
+    "eci_score": null
   },
   {
     "model": "Falcon-180B",
@@ -6637,7 +6860,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-09"
+    "yearMonth": "2023-09",
+    "eci_score": 111.76794610490916
   },
   {
     "model": "Swift",
@@ -6665,7 +6889,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-08"
+    "yearMonth": "2023-08",
+    "eci_score": null
   },
   {
     "model": "Jais",
@@ -6703,7 +6928,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-08"
+    "yearMonth": "2023-08",
+    "eci_score": null
   },
   {
     "model": "PeptideBERT",
@@ -6731,7 +6957,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-08"
+    "yearMonth": "2023-08",
+    "eci_score": null
   },
   {
     "model": "Qwen-VL",
@@ -6764,7 +6991,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-08"
+    "yearMonth": "2023-08",
+    "eci_score": null
   },
   {
     "model": "GGNN",
@@ -6799,7 +7027,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-08"
+    "yearMonth": "2023-08",
+    "eci_score": null
   },
   {
     "model": "RT-2",
@@ -6826,7 +7055,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-07"
+    "yearMonth": "2023-07",
+    "eci_score": null
   },
   {
     "model": "AudioLM",
@@ -6853,7 +7083,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-07"
+    "yearMonth": "2023-07",
+    "eci_score": null
   },
   {
     "model": "Llama 2-70B",
@@ -6880,7 +7111,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-07"
+    "yearMonth": "2023-07",
+    "eci_score": 114.4809505380145
   },
   {
     "model": "Llama 2-7B",
@@ -6907,7 +7139,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-07"
+    "yearMonth": "2023-07",
+    "eci_score": 96.83763242018988
   },
   {
     "model": "GPT3-2.7B (FlashAttention-2)",
@@ -6938,7 +7171,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-07"
+    "yearMonth": "2023-07",
+    "eci_score": null
   },
   {
     "model": "Claude 2",
@@ -6969,7 +7203,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-07"
+    "yearMonth": "2023-07",
+    "eci_score": 118.81545846135673
   },
   {
     "model": "xTrimoPGLM -100B",
@@ -7003,7 +7238,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-07"
+    "yearMonth": "2023-07",
+    "eci_score": null
   },
   {
     "model": "InternLM",
@@ -7040,7 +7276,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-07"
+    "yearMonth": "2023-07",
+    "eci_score": null
   },
   {
     "model": "Pangu-Weather",
@@ -7072,7 +7309,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-07"
+    "yearMonth": "2023-07",
+    "eci_score": null
   },
   {
     "model": "Stable Diffusion XL (SDXL)",
@@ -7100,7 +7338,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-07"
+    "yearMonth": "2023-07",
+    "eci_score": null
   },
   {
     "model": "HyenaDNA",
@@ -7136,7 +7375,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-06"
+    "yearMonth": "2023-06",
+    "eci_score": null
   },
   {
     "model": "ERNIE 3.5",
@@ -7164,7 +7404,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-06"
+    "yearMonth": "2023-06",
+    "eci_score": null
   },
   {
     "model": "MusicGen",
@@ -7191,7 +7432,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-06"
+    "yearMonth": "2023-06",
+    "eci_score": null
   },
   {
     "model": "LTM-1",
@@ -7223,7 +7465,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-06"
+    "yearMonth": "2023-06",
+    "eci_score": null
   },
   {
     "model": "PaLI-X",
@@ -7250,7 +7493,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-05"
+    "yearMonth": "2023-05",
+    "eci_score": null
   },
   {
     "model": "DPO on Pythia-2.8B",
@@ -7281,7 +7525,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-05"
+    "yearMonth": "2023-05",
+    "eci_score": null
   },
   {
     "model": "Goat-7B",
@@ -7309,7 +7554,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-05"
+    "yearMonth": "2023-05",
+    "eci_score": null
   },
   {
     "model": "CodeT5+",
@@ -7337,7 +7583,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-05"
+    "yearMonth": "2023-05",
+    "eci_score": null
   },
   {
     "model": "ONE-PEACE",
@@ -7371,7 +7618,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-05"
+    "yearMonth": "2023-05",
+    "eci_score": null
   },
   {
     "model": "CoEdiT-xxl",
@@ -7408,7 +7656,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-05"
+    "yearMonth": "2023-05",
+    "eci_score": null
   },
   {
     "model": "Med-PaLM 2",
@@ -7441,7 +7690,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-05"
+    "yearMonth": "2023-05",
+    "eci_score": null
   },
   {
     "model": "InstructBLIP",
@@ -7480,7 +7730,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-05"
+    "yearMonth": "2023-05",
+    "eci_score": null
   },
   {
     "model": "PaLM 2",
@@ -7508,7 +7759,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-05"
+    "yearMonth": "2023-05",
+    "eci_score": null
   },
   {
     "model": "StarCoder",
@@ -7591,7 +7843,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-05"
+    "yearMonth": "2023-05",
+    "eci_score": null
   },
   {
     "model": "ImageBind",
@@ -7621,7 +7874,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-05"
+    "yearMonth": "2023-05",
+    "eci_score": null
   },
   {
     "model": "Agile Soccer Robot",
@@ -7648,7 +7902,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-04"
+    "yearMonth": "2023-04",
+    "eci_score": null
   },
   {
     "model": "LLaVA",
@@ -7683,7 +7938,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-04"
+    "yearMonth": "2023-04",
+    "eci_score": null
   },
   {
     "model": "DINOv2",
@@ -7716,7 +7972,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-04"
+    "yearMonth": "2023-04",
+    "eci_score": null
   },
   {
     "model": "Incoder-6.7B",
@@ -7749,7 +8006,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-04"
+    "yearMonth": "2023-04",
+    "eci_score": null
   },
   {
     "model": "Segment Anything Model",
@@ -7776,7 +8034,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-04"
+    "yearMonth": "2023-04",
+    "eci_score": null
   },
   {
     "model": "BloombergGPT",
@@ -7810,7 +8069,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-03"
+    "yearMonth": "2023-03",
+    "eci_score": null
   },
   {
     "model": "VideoMAE V2",
@@ -7842,7 +8102,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-03"
+    "yearMonth": "2023-03",
+    "eci_score": null
   },
   {
     "model": "SigLIP 400M",
@@ -7869,7 +8130,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-03"
+    "yearMonth": "2023-03",
+    "eci_score": null
   },
   {
     "model": "Firefly",
@@ -7900,7 +8162,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-03"
+    "yearMonth": "2023-03",
+    "eci_score": null
   },
   {
     "model": "PanGu-Σ",
@@ -7928,7 +8191,8 @@
     "modelCapacity": "Massive (≥1T)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-03"
+    "yearMonth": "2023-03",
+    "eci_score": null
   },
   {
     "model": "Gen-2",
@@ -7959,7 +8223,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-03"
+    "yearMonth": "2023-03",
+    "eci_score": null
   },
   {
     "model": "LEP-AD",
@@ -7993,7 +8258,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-03"
+    "yearMonth": "2023-03",
+    "eci_score": null
   },
   {
     "model": "GPT-4",
@@ -8021,7 +8287,8 @@
     "modelCapacity": "Massive (≥1T)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-03"
+    "yearMonth": "2023-03",
+    "eci_score": 125.88567044419582
   },
   {
     "model": "Falcon-40B",
@@ -8049,7 +8316,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-03"
+    "yearMonth": "2023-03",
+    "eci_score": 102.34006339210916
   },
   {
     "model": "Claude",
@@ -8077,7 +8345,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-03"
+    "yearMonth": "2023-03",
+    "eci_score": null
   },
   {
     "model": "PaLM-E",
@@ -8114,7 +8383,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-03"
+    "yearMonth": "2023-03",
+    "eci_score": null
   },
   {
     "model": "AudioGen",
@@ -8147,7 +8417,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-03"
+    "yearMonth": "2023-03",
+    "eci_score": null
   },
   {
     "model": "DiT-XL/2",
@@ -8178,7 +8449,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-03"
+    "yearMonth": "2023-03",
+    "eci_score": null
   },
   {
     "model": "LLaMA-65B",
@@ -8205,7 +8477,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-02"
+    "yearMonth": "2023-02",
+    "eci_score": 109.80774601192748
   },
   {
     "model": "BASIC-L + Lion",
@@ -8239,7 +8512,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-02"
+    "yearMonth": "2023-02",
+    "eci_score": null
   },
   {
     "model": "ViT-22B",
@@ -8267,7 +8541,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-02"
+    "yearMonth": "2023-02",
+    "eci_score": null
   },
   {
     "model": "ProteinDT",
@@ -8309,7 +8584,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-02"
+    "yearMonth": "2023-02",
+    "eci_score": null
   },
   {
     "model": "Gen-1",
@@ -8337,7 +8613,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-02"
+    "yearMonth": "2023-02",
+    "eci_score": null
   },
   {
     "model": "BLIP-2 (Q-Former)",
@@ -8365,7 +8642,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-01"
+    "yearMonth": "2023-01",
+    "eci_score": null
   },
   {
     "model": "DDPM-IP (CelebA)",
@@ -8393,7 +8671,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-01"
+    "yearMonth": "2023-01",
+    "eci_score": null
   },
   {
     "model": "MusicLM",
@@ -8421,7 +8700,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-01"
+    "yearMonth": "2023-01",
+    "eci_score": null
   },
   {
     "model": "Ankh_large",
@@ -8455,7 +8735,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2023,
-    "yearMonth": "2023-01"
+    "yearMonth": "2023-01",
+    "eci_score": null
   },
   {
     "model": "Nucleotide Transformer",
@@ -8494,7 +8775,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-01"
+    "yearMonth": "2023-01",
+    "eci_score": null
   },
   {
     "model": "DreamerV3",
@@ -8527,7 +8809,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2023,
-    "yearMonth": "2023-01"
+    "yearMonth": "2023-01",
+    "eci_score": null
   },
   {
     "model": "VALL-E",
@@ -8555,7 +8838,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2023,
-    "yearMonth": "2023-01"
+    "yearMonth": "2023-01",
+    "eci_score": null
   },
   {
     "model": "Hybrid H3-2.7B",
@@ -8586,7 +8870,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-12"
+    "yearMonth": "2022-12",
+    "eci_score": null
   },
   {
     "model": "CaLM",
@@ -8614,7 +8899,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-12"
+    "yearMonth": "2022-12",
+    "eci_score": null
   },
   {
     "model": "RT-1",
@@ -8642,7 +8928,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-12"
+    "yearMonth": "2022-12",
+    "eci_score": null
   },
   {
     "model": "TranceptEve",
@@ -8676,7 +8963,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-12"
+    "yearMonth": "2022-12",
+    "eci_score": null
   },
   {
     "model": "Vega v2",
@@ -8717,7 +9005,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-12"
+    "yearMonth": "2022-12",
+    "eci_score": null
   },
   {
     "model": "DeepNash",
@@ -8744,7 +9033,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-12"
+    "yearMonth": "2022-12",
+    "eci_score": null
   },
   {
     "model": "GPT-3.5 Turbo",
@@ -8775,7 +9065,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": 118.36688231147646
   },
   {
     "model": "GPT-3.5",
@@ -8803,7 +9094,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "DiT-XL/2 + Discriminator Guidance",
@@ -8837,7 +9129,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "Discriminator Guidance",
@@ -8871,7 +9164,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "ALM 1.0",
@@ -8899,7 +9193,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "CICERO",
@@ -8926,7 +9221,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "AR-LDM",
@@ -8964,7 +9260,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "Fusion in Encoder",
@@ -8992,7 +9289,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "Galactica",
@@ -9019,7 +9317,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "EVA-01",
@@ -9052,7 +9351,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "AltCLIP_M9",
@@ -9080,7 +9380,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "InternImage",
@@ -9120,7 +9421,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "mT0-13B",
@@ -9157,7 +9459,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "Mogrifier RLSTM (WT2)",
@@ -9184,7 +9487,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "eDiff-I",
@@ -9212,7 +9516,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-11"
+    "yearMonth": "2022-11",
+    "eci_score": null
   },
   {
     "model": "EnCodec",
@@ -9239,7 +9544,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-10"
+    "yearMonth": "2022-10",
+    "eci_score": null
   },
   {
     "model": "U-PaLM (540B)",
@@ -9267,7 +9573,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-10"
+    "yearMonth": "2022-10",
+    "eci_score": null
   },
   {
     "model": "LMSI-Palm",
@@ -9301,7 +9608,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-10"
+    "yearMonth": "2022-10",
+    "eci_score": null
   },
   {
     "model": "Flan-PaLM 540B",
@@ -9329,7 +9637,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-10"
+    "yearMonth": "2022-10",
+    "eci_score": null
   },
   {
     "model": "GenSLM",
@@ -9370,7 +9679,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-10"
+    "yearMonth": "2022-10",
+    "eci_score": null
   },
   {
     "model": "Diplodocus",
@@ -9400,7 +9710,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-10"
+    "yearMonth": "2022-10",
+    "eci_score": null
   },
   {
     "model": "Phenaki",
@@ -9433,7 +9744,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-10"
+    "yearMonth": "2022-10",
+    "eci_score": null
   },
   {
     "model": "AlphaTensor",
@@ -9460,7 +9772,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-10"
+    "yearMonth": "2022-10",
+    "eci_score": null
   },
   {
     "model": "DiffDock",
@@ -9495,7 +9808,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-10"
+    "yearMonth": "2022-10",
+    "eci_score": null
   },
   {
     "model": "Make-A-Video",
@@ -9522,7 +9836,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-09"
+    "yearMonth": "2022-09",
+    "eci_score": null
   },
   {
     "model": "Whisper",
@@ -9550,7 +9865,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-09"
+    "yearMonth": "2022-09",
+    "eci_score": null
   },
   {
     "model": "SauTech",
@@ -9584,7 +9900,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-09"
+    "yearMonth": "2022-09",
+    "eci_score": null
   },
   {
     "model": "PaLI",
@@ -9612,7 +9929,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-09"
+    "yearMonth": "2022-09",
+    "eci_score": null
   },
   {
     "model": "BEIT-3",
@@ -9640,7 +9958,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-08"
+    "yearMonth": "2022-08",
+    "eci_score": null
   },
   {
     "model": "BlenderBot 3",
@@ -9676,7 +9995,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-08"
+    "yearMonth": "2022-08",
+    "eci_score": null
   },
   {
     "model": "GLM-130B",
@@ -9704,7 +10024,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-08"
+    "yearMonth": "2022-08",
+    "eci_score": null
   },
   {
     "model": "AlexaTM 20B",
@@ -9732,7 +10053,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-08"
+    "yearMonth": "2022-08",
+    "eci_score": null
   },
   {
     "model": "OmegaPLM",
@@ -9766,7 +10088,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-07"
+    "yearMonth": "2022-07",
+    "eci_score": null
   },
   {
     "model": "ESM2-15B",
@@ -9796,7 +10119,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-07"
+    "yearMonth": "2022-07",
+    "eci_score": null
   },
   {
     "model": "BLOOM-176B",
@@ -9833,7 +10157,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-07"
+    "yearMonth": "2022-07",
+    "eci_score": null
   },
   {
     "model": "NLLB",
@@ -9860,7 +10185,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-07"
+    "yearMonth": "2022-07",
+    "eci_score": null
   },
   {
     "model": "CodeT5-large",
@@ -9888,7 +10214,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-07"
+    "yearMonth": "2022-07",
+    "eci_score": null
   },
   {
     "model": "Minerva (540B)",
@@ -9916,7 +10243,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-06"
+    "yearMonth": "2022-06",
+    "eci_score": null
   },
   {
     "model": "ProGen2-xlarge",
@@ -9951,7 +10279,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-06"
+    "yearMonth": "2022-06",
+    "eci_score": null
   },
   {
     "model": "Parti",
@@ -9978,7 +10307,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-06"
+    "yearMonth": "2022-06",
+    "eci_score": null
   },
   {
     "model": "CoCa",
@@ -10005,7 +10335,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-06"
+    "yearMonth": "2022-06",
+    "eci_score": null
   },
   {
     "model": "MetaLM",
@@ -10033,7 +10364,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-06"
+    "yearMonth": "2022-06",
+    "eci_score": null
   },
   {
     "model": "DITTO",
@@ -10073,7 +10405,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-06"
+    "yearMonth": "2022-06",
+    "eci_score": null
   },
   {
     "model": "Diffusion-GAN",
@@ -10107,7 +10440,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-06"
+    "yearMonth": "2022-06",
+    "eci_score": null
   },
   {
     "model": "CogVideo",
@@ -10138,7 +10472,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-05"
+    "yearMonth": "2022-05",
+    "eci_score": null
   },
   {
     "model": "Tranception",
@@ -10177,7 +10512,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-05"
+    "yearMonth": "2022-05",
+    "eci_score": null
   },
   {
     "model": "GPT-2 Medium (FlashAttention)",
@@ -10208,7 +10544,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-05"
+    "yearMonth": "2022-05",
+    "eci_score": null
   },
   {
     "model": "Imagen",
@@ -10235,7 +10572,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-05"
+    "yearMonth": "2022-05",
+    "eci_score": null
   },
   {
     "model": "SimCSE",
@@ -10269,7 +10607,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-05"
+    "yearMonth": "2022-05",
+    "eci_score": null
   },
   {
     "model": "Gato",
@@ -10296,7 +10635,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-05"
+    "yearMonth": "2022-05",
+    "eci_score": null
   },
   {
     "model": "UL2",
@@ -10326,7 +10666,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-05"
+    "yearMonth": "2022-05",
+    "eci_score": null
   },
   {
     "model": "DeBERTaV3large + KEAR",
@@ -10354,7 +10695,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-05"
+    "yearMonth": "2022-05",
+    "eci_score": null
   },
   {
     "model": "OPT-175B",
@@ -10381,7 +10723,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-05"
+    "yearMonth": "2022-05",
+    "eci_score": null
   },
   {
     "model": "Flamingo",
@@ -10408,7 +10751,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-04"
+    "yearMonth": "2022-04",
+    "eci_score": null
   },
   {
     "model": "XMC-GAN",
@@ -10435,7 +10779,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-04"
+    "yearMonth": "2022-04",
+    "eci_score": null
   },
   {
     "model": "Sparse all-MLP",
@@ -10462,7 +10807,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-04"
+    "yearMonth": "2022-04",
+    "eci_score": null
   },
   {
     "model": "Stable Diffusion (LDM-KL-8-G)",
@@ -10500,7 +10846,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-04"
+    "yearMonth": "2022-04",
+    "eci_score": null
   },
   {
     "model": "BERT-RBP",
@@ -10528,7 +10875,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-04"
+    "yearMonth": "2022-04",
+    "eci_score": null
   },
   {
     "model": "DALL·E 2",
@@ -10556,7 +10904,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-04"
+    "yearMonth": "2022-04",
+    "eci_score": null
   },
   {
     "model": "PaLM (540B)",
@@ -10583,7 +10932,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-04"
+    "yearMonth": "2022-04",
+    "eci_score": null
   },
   {
     "model": "Chinchilla",
@@ -10610,7 +10960,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-03"
+    "yearMonth": "2022-03",
+    "eci_score": null
   },
   {
     "model": "Make-A-Scene",
@@ -10637,7 +10988,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-03"
+    "yearMonth": "2022-03",
+    "eci_score": null
   },
   {
     "model": [
@@ -10677,7 +11029,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-03"
+    "yearMonth": "2022-03",
+    "eci_score": null
   },
   {
     "model": "ViT-G (model soup)",
@@ -10710,7 +11063,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-03"
+    "yearMonth": "2022-03",
+    "eci_score": null
   },
   {
     "model": "MegaSyn",
@@ -10738,7 +11092,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-03"
+    "yearMonth": "2022-03",
+    "eci_score": null
   },
   {
     "model": "Statement Curriculum Learning",
@@ -10766,7 +11121,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-03"
+    "yearMonth": "2022-03",
+    "eci_score": null
   },
   {
     "model": "DeepNet",
@@ -10797,7 +11153,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-03"
+    "yearMonth": "2022-03",
+    "eci_score": null
   },
   {
     "model": "PolyCoder",
@@ -10825,7 +11182,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-02"
+    "yearMonth": "2022-02",
+    "eci_score": null
   },
   {
     "model": "FourCastNet",
@@ -10865,7 +11223,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-02"
+    "yearMonth": "2022-02",
+    "eci_score": null
   },
   {
     "model": "ST-MoE",
@@ -10895,7 +11254,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-02"
+    "yearMonth": "2022-02",
+    "eci_score": null
   },
   {
     "model": "Midjourney V1",
@@ -10923,7 +11283,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-02"
+    "yearMonth": "2022-02",
+    "eci_score": null
   },
   {
     "model": "ProteinBERT",
@@ -10961,7 +11322,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-02"
+    "yearMonth": "2022-02",
+    "eci_score": null
   },
   {
     "model": "LaMDA",
@@ -10989,7 +11351,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-02"
+    "yearMonth": "2022-02",
+    "eci_score": null
   },
   {
     "model": "GPT-NeoX-20B",
@@ -11017,7 +11380,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-02"
+    "yearMonth": "2022-02",
+    "eci_score": null
   },
   {
     "model": "MaskGIT (ImageNet)",
@@ -11044,7 +11408,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-02"
+    "yearMonth": "2022-02",
+    "eci_score": null
   },
   {
     "model": "RETRO-7B",
@@ -11071,7 +11436,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-02"
+    "yearMonth": "2022-02",
+    "eci_score": null
   },
   {
     "model": "AlphaCode",
@@ -11098,7 +11464,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-02"
+    "yearMonth": "2022-02",
+    "eci_score": null
   },
   {
     "model": "InstructGPT 175B",
@@ -11126,7 +11493,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-01"
+    "yearMonth": "2022-01",
+    "eci_score": null
   },
   {
     "model": "InstructGPT 6B",
@@ -11154,7 +11522,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-01"
+    "yearMonth": "2022-01",
+    "eci_score": null
   },
   {
     "model": "InstructGPT 1.3B",
@@ -11182,7 +11551,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-01"
+    "yearMonth": "2022-01",
+    "eci_score": null
   },
   {
     "model": "OntoProtein",
@@ -11210,7 +11580,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-01"
+    "yearMonth": "2022-01",
+    "eci_score": null
   },
   {
     "model": "AbLang (heavy sequences)",
@@ -11238,7 +11609,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2022,
-    "yearMonth": "2022-01"
+    "yearMonth": "2022-01",
+    "eci_score": null
   },
   {
     "model": "data2vec (vision)",
@@ -11268,7 +11640,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-01"
+    "yearMonth": "2022-01",
+    "eci_score": null
   },
   {
     "model": "data2vec (speech)",
@@ -11298,7 +11671,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-01"
+    "yearMonth": "2022-01",
+    "eci_score": null
   },
   {
     "model": "data2vec (language)",
@@ -11328,7 +11702,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2022,
-    "yearMonth": "2022-01"
+    "yearMonth": "2022-01",
+    "eci_score": null
   },
   {
     "model": "Detic",
@@ -11358,7 +11733,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2022,
-    "yearMonth": "2022-01"
+    "yearMonth": "2022-01",
+    "eci_score": null
   },
   {
     "model": "ERNIE-ViLG",
@@ -11386,7 +11762,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-12"
+    "yearMonth": "2021-12",
+    "eci_score": null
   },
   {
     "model": "ERNIE 3.0 Titan",
@@ -11420,7 +11797,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-12"
+    "yearMonth": "2021-12",
+    "eci_score": null
   },
   {
     "model": "XGLM-7.5B",
@@ -11453,7 +11831,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-12"
+    "yearMonth": "2021-12",
+    "eci_score": null
   },
   {
     "model": "LDM-1.45B",
@@ -11490,7 +11869,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-12"
+    "yearMonth": "2021-12",
+    "eci_score": null
   },
   {
     "model": "Contriever",
@@ -11524,7 +11904,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-12"
+    "yearMonth": "2021-12",
+    "eci_score": null
   },
   {
     "model": "LongT5",
@@ -11551,7 +11932,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-12"
+    "yearMonth": "2021-12",
+    "eci_score": null
   },
   {
     "model": "GLaM",
@@ -11579,7 +11961,8 @@
     "modelCapacity": "Massive (≥1T)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-12"
+    "yearMonth": "2021-12",
+    "eci_score": null
   },
   {
     "model": "Gopher (280B)",
@@ -11609,7 +11992,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-12"
+    "yearMonth": "2021-12",
+    "eci_score": null
   },
   {
     "model": "Student of Games",
@@ -11636,7 +12020,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-12"
+    "yearMonth": "2021-12",
+    "eci_score": null
   },
   {
     "model": "T-NLRv5 XXL",
@@ -11664,7 +12049,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-12"
+    "yearMonth": "2021-12",
+    "eci_score": null
   },
   {
     "model": "NÜWA",
@@ -11701,7 +12087,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-11"
+    "yearMonth": "2021-11",
+    "eci_score": null
   },
   {
     "model": "Florence",
@@ -11729,7 +12116,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-11"
+    "yearMonth": "2021-11",
+    "eci_score": null
   },
   {
     "model": "BASIC-L",
@@ -11757,7 +12145,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-11"
+    "yearMonth": "2021-11",
+    "eci_score": null
   },
   {
     "model": "Swin Transformer V2 (SwinV2-G)",
@@ -11785,7 +12174,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-11"
+    "yearMonth": "2021-11",
+    "eci_score": null
   },
   {
     "model": "ViT-G/14 (LiT)",
@@ -11812,7 +12202,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-11"
+    "yearMonth": "2021-11",
+    "eci_score": null
   },
   {
     "model": "Masked Autoencoders ViT-H",
@@ -11842,7 +12233,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-11"
+    "yearMonth": "2021-11",
+    "eci_score": null
   },
   {
     "model": "Projected GAN",
@@ -11870,7 +12262,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2021,
-    "yearMonth": "2021-11"
+    "yearMonth": "2021-11",
+    "eci_score": null
   },
   {
     "model": "CodeT5-base",
@@ -11907,7 +12300,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-11"
+    "yearMonth": "2021-11",
+    "eci_score": null
   },
   {
     "model": "S4",
@@ -11935,7 +12329,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2021,
-    "yearMonth": "2021-10"
+    "yearMonth": "2021-10",
+    "eci_score": null
   },
   {
     "model": "EfficientZero",
@@ -11970,7 +12365,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2021,
-    "yearMonth": "2021-10"
+    "yearMonth": "2021-10",
+    "eci_score": null
   },
   {
     "model": "Eve",
@@ -12004,7 +12400,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2021,
-    "yearMonth": "2021-10"
+    "yearMonth": "2021-10",
+    "eci_score": null
   },
   {
     "model": "base LM+GNN+kNN",
@@ -12043,7 +12440,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-10"
+    "yearMonth": "2021-10",
+    "eci_score": null
   },
   {
     "model": "Yuan 1.0",
@@ -12071,7 +12469,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-10"
+    "yearMonth": "2021-10",
+    "eci_score": null
   },
   {
     "model": "Megatron-Turing NLG 530B",
@@ -12105,7 +12504,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-10"
+    "yearMonth": "2021-10",
+    "eci_score": null
   },
   {
     "model": "AlphaFold-Multimer",
@@ -12132,7 +12532,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-10"
+    "yearMonth": "2021-10",
+    "eci_score": null
   },
   {
     "model": "Turing ULRv5",
@@ -12164,7 +12565,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-09"
+    "yearMonth": "2021-09",
+    "eci_score": null
   },
   {
     "model": "TrOCR",
@@ -12198,7 +12600,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-09"
+    "yearMonth": "2021-09",
+    "eci_score": null
   },
   {
     "model": "PLATO-XL",
@@ -12226,7 +12629,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-09"
+    "yearMonth": "2021-09",
+    "eci_score": null
   },
   {
     "model": "HyperCLOVA 204B",
@@ -12257,7 +12661,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-09"
+    "yearMonth": "2021-09",
+    "eci_score": null
   },
   {
     "model": "PermuteFormer",
@@ -12285,7 +12690,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2021,
-    "yearMonth": "2021-09"
+    "yearMonth": "2021-09",
+    "eci_score": null
   },
   {
     "model": "MEB",
@@ -12313,7 +12719,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-09"
+    "yearMonth": "2021-09",
+    "eci_score": null
   },
   {
     "model": "FLAN 137B",
@@ -12340,7 +12747,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-09"
+    "yearMonth": "2021-09",
+    "eci_score": null
   },
   {
     "model": "XLMR-XXL",
@@ -12370,7 +12778,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-08"
+    "yearMonth": "2021-08",
+    "eci_score": null
   },
   {
     "model": "DNABERT",
@@ -12398,7 +12807,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2021,
-    "yearMonth": "2021-08"
+    "yearMonth": "2021-08",
+    "eci_score": null
   },
   {
     "model": "Zidong Taichu",
@@ -12432,7 +12842,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-08"
+    "yearMonth": "2021-08",
+    "eci_score": null
   },
   {
     "model": "Jurassic-1-Jumbo",
@@ -12460,7 +12871,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-08"
+    "yearMonth": "2021-08",
+    "eci_score": null
   },
   {
     "model": "W2v-BERT",
@@ -12490,7 +12902,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-08"
+    "yearMonth": "2021-08",
+    "eci_score": null
   },
   {
     "model": "YOLOX-X",
@@ -12518,7 +12931,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-08"
+    "yearMonth": "2021-08",
+    "eci_score": null
   },
   {
     "model": "6-Act Tether",
@@ -12551,7 +12965,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-08"
+    "yearMonth": "2021-08",
+    "eci_score": null
   },
   {
     "model": "SEER",
@@ -12584,7 +12999,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-07"
+    "yearMonth": "2021-07",
+    "eci_score": null
   },
   {
     "model": "HuBERT",
@@ -12614,7 +13030,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-07"
+    "yearMonth": "2021-07",
+    "eci_score": null
   },
   {
     "model": "GOAT",
@@ -12641,7 +13058,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-07"
+    "yearMonth": "2021-07",
+    "eci_score": null
   },
   {
     "model": "Codex",
@@ -12669,7 +13087,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-07"
+    "yearMonth": "2021-07",
+    "eci_score": null
   },
   {
     "model": "ERNIE 3.0",
@@ -12697,7 +13116,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-07"
+    "yearMonth": "2021-07",
+    "eci_score": null
   },
   {
     "model": "Adaptive Input Transformer + RD",
@@ -12734,7 +13154,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-06"
+    "yearMonth": "2021-06",
+    "eci_score": null
   },
   {
     "model": "Fold2Seq",
@@ -12768,7 +13189,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-06"
+    "yearMonth": "2021-06",
+    "eci_score": null
   },
   {
     "model": "EfficientNetV2-XL",
@@ -12795,7 +13217,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-06"
+    "yearMonth": "2021-06",
+    "eci_score": null
   },
   {
     "model": "StyleGAN3-T",
@@ -12832,7 +13255,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-06"
+    "yearMonth": "2021-06",
+    "eci_score": null
   },
   {
     "model": "StyleGAN3-R",
@@ -12869,7 +13293,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-06"
+    "yearMonth": "2021-06",
+    "eci_score": null
   },
   {
     "model": "Denoising Diffusion Probabilistic Models (LSUN Bedroom)",
@@ -12897,7 +13322,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2021,
-    "yearMonth": "2021-06"
+    "yearMonth": "2021-06",
+    "eci_score": null
   },
   {
     "model": "ALIGN",
@@ -12924,7 +13350,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-06"
+    "yearMonth": "2021-06",
+    "eci_score": null
   },
   {
     "model": "DeBERTa",
@@ -12952,7 +13379,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-06"
+    "yearMonth": "2021-06",
+    "eci_score": null
   },
   {
     "model": "EMDR",
@@ -12985,7 +13413,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-06"
+    "yearMonth": "2021-06",
+    "eci_score": null
   },
   {
     "model": "CoAtNet",
@@ -13015,7 +13444,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-06"
+    "yearMonth": "2021-06",
+    "eci_score": null
   },
   {
     "model": "ViT-G/14",
@@ -13045,7 +13475,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-06"
+    "yearMonth": "2021-06",
+    "eci_score": null
   },
   {
     "model": "ByT5-XXL",
@@ -13072,7 +13503,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-05"
+    "yearMonth": "2021-05",
+    "eci_score": null
   },
   {
     "model": "Transformer local-attention (NesT-B)",
@@ -13102,7 +13534,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-05"
+    "yearMonth": "2021-05",
+    "eci_score": null
   },
   {
     "model": "CogView",
@@ -13136,7 +13569,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-05"
+    "yearMonth": "2021-05",
+    "eci_score": null
   },
   {
     "model": "MedBERT",
@@ -13170,7 +13604,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2021,
-    "yearMonth": "2021-05"
+    "yearMonth": "2021-05",
+    "eci_score": null
   },
   {
     "model": "ADM",
@@ -13198,7 +13633,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-05"
+    "yearMonth": "2021-05",
+    "eci_score": null
   },
   {
     "model": "ProtT5-XL-U50",
@@ -13242,7 +13678,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-05"
+    "yearMonth": "2021-05",
+    "eci_score": null
   },
   {
     "model": "ProtBERT-BFD",
@@ -13286,7 +13723,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-05"
+    "yearMonth": "2021-05",
+    "eci_score": null
   },
   {
     "model": "PLUG",
@@ -13314,7 +13752,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-04"
+    "yearMonth": "2021-04",
+    "eci_score": null
   },
   {
     "model": "Unicorn",
@@ -13342,7 +13781,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-03"
+    "yearMonth": "2021-03",
+    "eci_score": null
   },
   {
     "model": "M6-T",
@@ -13370,7 +13810,8 @@
     "modelCapacity": "Massive (≥1T)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-03"
+    "yearMonth": "2021-03",
+    "eci_score": null
   },
   {
     "model": "Generative BST",
@@ -13400,7 +13841,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-03"
+    "yearMonth": "2021-03",
+    "eci_score": null
   },
   {
     "model": "Meta Pseudo Labels",
@@ -13427,7 +13869,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-03"
+    "yearMonth": "2021-03",
+    "eci_score": null
   },
   {
     "model": "SRU++ Large",
@@ -13455,7 +13898,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-02"
+    "yearMonth": "2021-02",
+    "eci_score": null
   },
   {
     "model": "Rational DQN Average",
@@ -13483,7 +13927,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2021,
-    "yearMonth": "2021-02"
+    "yearMonth": "2021-02",
+    "eci_score": null
   },
   {
     "model": "MSA Transformer",
@@ -13516,7 +13961,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-02"
+    "yearMonth": "2021-02",
+    "eci_score": null
   },
   {
     "model": "top-down frozen classifier",
@@ -13550,7 +13996,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-02"
+    "yearMonth": "2021-02",
+    "eci_score": null
   },
   {
     "model": "DLWP",
@@ -13584,7 +14031,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-02"
+    "yearMonth": "2021-02",
+    "eci_score": null
   },
   {
     "model": "DeiT-B",
@@ -13617,7 +14065,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2021,
-    "yearMonth": "2021-01"
+    "yearMonth": "2021-01",
+    "eci_score": null
   },
   {
     "model": "Switch",
@@ -13645,7 +14094,8 @@
     "modelCapacity": "Massive (≥1T)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-01"
+    "yearMonth": "2021-01",
+    "eci_score": null
   },
   {
     "model": "BigSSL",
@@ -13676,7 +14126,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-01"
+    "yearMonth": "2021-01",
+    "eci_score": null
   },
   {
     "model": "DALL-E",
@@ -13704,7 +14155,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-01"
+    "yearMonth": "2021-01",
+    "eci_score": null
   },
   {
     "model": "CLIP (ViT L/14@336px)",
@@ -13732,7 +14184,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-01"
+    "yearMonth": "2021-01",
+    "eci_score": null
   },
   {
     "model": "CLIP (ResNet-50)",
@@ -13760,7 +14213,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2021,
-    "yearMonth": "2021-01"
+    "yearMonth": "2021-01",
+    "eci_score": null
   },
   {
     "model": "ERNIE-Doc (247M)",
@@ -13788,7 +14242,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-12"
+    "yearMonth": "2020-12",
+    "eci_score": null
   },
   {
     "model": "CT-MoS (WT2)",
@@ -13825,7 +14280,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-12"
+    "yearMonth": "2020-12",
+    "eci_score": null
   },
   {
     "model": "DensePhrases",
@@ -13859,7 +14315,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2020,
-    "yearMonth": "2020-12"
+    "yearMonth": "2020-12",
+    "eci_score": null
   },
   {
     "model": "VQGAN + CLIP",
@@ -13887,7 +14344,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2020,
-    "yearMonth": "2020-12"
+    "yearMonth": "2020-12",
+    "eci_score": null
   },
   {
     "model": "ESM1b",
@@ -13920,7 +14378,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-12"
+    "yearMonth": "2020-12",
+    "eci_score": null
   },
   {
     "model": "CPM-Large",
@@ -13951,7 +14410,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Public",
     "year": 2020,
-    "yearMonth": "2020-12"
+    "yearMonth": "2020-12",
+    "eci_score": null
   },
   {
     "model": "AlphaFold 2",
@@ -13978,7 +14438,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-11"
+    "yearMonth": "2020-11",
+    "eci_score": null
   },
   {
     "model": "KEPLER",
@@ -14021,7 +14482,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-11"
+    "yearMonth": "2020-11",
+    "eci_score": null
   },
   {
     "model": "wave2vec 2.0 LARGE",
@@ -14049,7 +14511,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-10"
+    "yearMonth": "2020-10",
+    "eci_score": null
   },
   {
     "model": "ViT-Huge/14",
@@ -14079,7 +14542,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-10"
+    "yearMonth": "2020-10",
+    "eci_score": null
   },
   {
     "model": "ViT-Base/32",
@@ -14106,7 +14570,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-10"
+    "yearMonth": "2020-10",
+    "eci_score": null
   },
   {
     "model": "German ELECTRA Large",
@@ -14140,7 +14605,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-10"
+    "yearMonth": "2020-10",
+    "eci_score": null
   },
   {
     "model": "mT5-XXL",
@@ -14167,7 +14633,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-10"
+    "yearMonth": "2020-10",
+    "eci_score": null
   },
   {
     "model": "Conformer + Wav2vec 2.0 + Noisy Student",
@@ -14197,7 +14664,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-10"
+    "yearMonth": "2020-10",
+    "eci_score": null
   },
   {
     "model": "LUKE",
@@ -14231,7 +14699,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2020,
-    "yearMonth": "2020-10"
+    "yearMonth": "2020-10",
+    "eci_score": null
   },
   {
     "model": "ProBERTa",
@@ -14262,7 +14731,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2020,
-    "yearMonth": "2020-09"
+    "yearMonth": "2020-09",
+    "eci_score": null
   },
   {
     "model": "ERNIE-GEN (large)",
@@ -14290,7 +14760,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-08"
+    "yearMonth": "2020-08",
+    "eci_score": null
   },
   {
     "model": "DeLighT",
@@ -14324,7 +14795,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-08"
+    "yearMonth": "2020-08",
+    "eci_score": null
   },
   {
     "model": "EfficientDet",
@@ -14351,7 +14823,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-07"
+    "yearMonth": "2020-07",
+    "eci_score": null
   },
   {
     "model": "Hopfield Networks (2020)",
@@ -14386,7 +14859,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2020,
-    "yearMonth": "2020-07"
+    "yearMonth": "2020-07",
+    "eci_score": null
   },
   {
     "model": "SemExp",
@@ -14419,7 +14893,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-07"
+    "yearMonth": "2020-07",
+    "eci_score": null
   },
   {
     "model": "GShard (dense)",
@@ -14447,7 +14922,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-06"
+    "yearMonth": "2020-06",
+    "eci_score": null
   },
   {
     "model": "GPT-3 175B (davinci)",
@@ -14475,7 +14951,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-05"
+    "yearMonth": "2020-05",
+    "eci_score": null
   },
   {
     "model": "DETR",
@@ -14503,7 +14980,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-05"
+    "yearMonth": "2020-05",
+    "eci_score": null
   },
   {
     "model": "Retrieval-Augmented Generator",
@@ -14541,7 +15019,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-05"
+    "yearMonth": "2020-05",
+    "eci_score": null
   },
   {
     "model": "Conformer",
@@ -14569,7 +15048,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-05"
+    "yearMonth": "2020-05",
+    "eci_score": null
   },
   {
     "model": "ContextNet",
@@ -14597,7 +15077,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-05"
+    "yearMonth": "2020-05",
+    "eci_score": null
   },
   {
     "model": "NAS+ESS (23M)",
@@ -14632,7 +15113,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-05"
+    "yearMonth": "2020-05",
+    "eci_score": null
   },
   {
     "model": "UnifiedQA",
@@ -14666,7 +15148,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-05"
+    "yearMonth": "2020-05",
+    "eci_score": null
   },
   {
     "model": "Once for All",
@@ -14701,7 +15184,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-04"
+    "yearMonth": "2020-04",
+    "eci_score": null
   },
   {
     "model": "Go-explore",
@@ -14735,7 +15219,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-04"
+    "yearMonth": "2020-04",
+    "eci_score": null
   },
   {
     "model": "CURL",
@@ -14763,7 +15248,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2020,
-    "yearMonth": "2020-04"
+    "yearMonth": "2020-04",
+    "eci_score": null
   },
   {
     "model": "Agent57",
@@ -14790,7 +15276,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-03"
+    "yearMonth": "2020-03",
+    "eci_score": null
   },
   {
     "model": "MetNet",
@@ -14818,7 +15305,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-03"
+    "yearMonth": "2020-03",
+    "eci_score": null
   },
   {
     "model": "ELECTRA",
@@ -14848,7 +15336,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-03"
+    "yearMonth": "2020-03",
+    "eci_score": null
   },
   {
     "model": "Tensor-Transformer(1core)+PN (WT103)",
@@ -14876,7 +15365,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2020,
-    "yearMonth": "2020-03"
+    "yearMonth": "2020-03",
+    "eci_score": null
   },
   {
     "model": "Routing Transformer (WT-103)",
@@ -14903,7 +15393,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-03"
+    "yearMonth": "2020-03",
+    "eci_score": null
   },
   {
     "model": "TransformerXL + spectrum control",
@@ -14940,7 +15431,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-03"
+    "yearMonth": "2020-03",
+    "eci_score": null
   },
   {
     "model": "TCAN (WT2)",
@@ -14974,7 +15466,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-02"
+    "yearMonth": "2020-02",
+    "eci_score": null
   },
   {
     "model": "Feedback Transformer",
@@ -15007,7 +15500,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-02"
+    "yearMonth": "2020-02",
+    "eci_score": null
   },
   {
     "model": "FFN SwiGLU",
@@ -15035,7 +15529,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-02"
+    "yearMonth": "2020-02",
+    "eci_score": null
   },
   {
     "model": "Turing-NLG",
@@ -15063,7 +15558,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-02"
+    "yearMonth": "2020-02",
+    "eci_score": null
   },
   {
     "model": "SimCLR",
@@ -15090,7 +15586,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-02"
+    "yearMonth": "2020-02",
+    "eci_score": null
   },
   {
     "model": "ALBERT-xxlarge",
@@ -15124,7 +15621,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-02"
+    "yearMonth": "2020-02",
+    "eci_score": null
   },
   {
     "model": "TaLK Convolution",
@@ -15152,7 +15650,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2020,
-    "yearMonth": "2020-02"
+    "yearMonth": "2020-02",
+    "eci_score": null
   },
   {
     "model": "Perceiver IO (optical flow)",
@@ -15179,7 +15678,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-02"
+    "yearMonth": "2020-02",
+    "eci_score": null
   },
   {
     "model": "Theseus 6/768",
@@ -15217,7 +15717,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2020,
-    "yearMonth": "2020-02"
+    "yearMonth": "2020-02",
+    "eci_score": null
   },
   {
     "model": "Meena",
@@ -15244,7 +15745,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-01"
+    "yearMonth": "2020-01",
+    "eci_score": null
   },
   {
     "model": "ContextNet + Noisy Student",
@@ -15272,7 +15774,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-01"
+    "yearMonth": "2020-01",
+    "eci_score": null
   },
   {
     "model": "AlphaFold",
@@ -15299,7 +15802,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2020,
-    "yearMonth": "2020-01"
+    "yearMonth": "2020-01",
+    "eci_score": null
   },
   {
     "model": "Big Transfer (BiT-L)",
@@ -15326,7 +15830,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-12"
+    "yearMonth": "2019-12",
+    "eci_score": null
   },
   {
     "model": "DD-PPO",
@@ -15360,7 +15865,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-12"
+    "yearMonth": "2019-12",
+    "eci_score": null
   },
   {
     "model": "OpenAI Five Rerun",
@@ -15388,7 +15894,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-12"
+    "yearMonth": "2019-12",
+    "eci_score": null
   },
   {
     "model": "OpenAI Five",
@@ -15416,7 +15923,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-12"
+    "yearMonth": "2019-12",
+    "eci_score": null
   },
   {
     "model": "MMLSTM (WT-2)",
@@ -15450,7 +15958,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2019,
-    "yearMonth": "2019-12"
+    "yearMonth": "2019-12",
+    "eci_score": null
   },
   {
     "model": "MMLSTM (PTB)",
@@ -15484,7 +15993,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2019,
-    "yearMonth": "2019-12"
+    "yearMonth": "2019-12",
+    "eci_score": null
   },
   {
     "model": "StarGAN v2",
@@ -15522,7 +16032,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-12"
+    "yearMonth": "2019-12",
+    "eci_score": null
   },
   {
     "model": "StyleGAN2",
@@ -15559,7 +16070,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-12"
+    "yearMonth": "2019-12",
+    "eci_score": null
   },
   {
     "model": "Transformer-XL DeFINE (141M)",
@@ -15593,7 +16105,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-11"
+    "yearMonth": "2019-11",
+    "eci_score": null
   },
   {
     "model": "Photo-Geometric Autoencoder",
@@ -15621,7 +16134,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2019,
-    "yearMonth": "2019-11"
+    "yearMonth": "2019-11",
+    "eci_score": null
   },
   {
     "model": "Transformer - LibriVox + Decoding/Rescoring",
@@ -15649,7 +16163,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-11"
+    "yearMonth": "2019-11",
+    "eci_score": null
   },
   {
     "model": "MuZero",
@@ -15676,7 +16191,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-11"
+    "yearMonth": "2019-11",
+    "eci_score": null
   },
   {
     "model": "MoCo",
@@ -15703,7 +16219,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-11"
+    "yearMonth": "2019-11",
+    "eci_score": null
   },
   {
     "model": "Noisy Student (L2)",
@@ -15737,7 +16254,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-11"
+    "yearMonth": "2019-11",
+    "eci_score": null
   },
   {
     "model": "Sandwich Transformer",
@@ -15770,7 +16288,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-11"
+    "yearMonth": "2019-11",
+    "eci_score": null
   },
   {
     "model": "CamemBERT",
@@ -15808,7 +16327,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-11"
+    "yearMonth": "2019-11",
+    "eci_score": null
   },
   {
     "model": "XLM-RoBERTa",
@@ -15835,7 +16355,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-11"
+    "yearMonth": "2019-11",
+    "eci_score": null
   },
   {
     "model": "Base LM + kNN LM + Continuous Cache",
@@ -15868,7 +16389,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-11"
+    "yearMonth": "2019-11",
+    "eci_score": null
   },
   {
     "model": "AlphaStar",
@@ -15895,7 +16417,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-10"
+    "yearMonth": "2019-10",
+    "eci_score": null
   },
   {
     "model": "BART-large",
@@ -15926,7 +16449,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-10"
+    "yearMonth": "2019-10",
+    "eci_score": null
   },
   {
     "model": "T5-11B",
@@ -15954,7 +16478,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-10"
+    "yearMonth": "2019-10",
+    "eci_score": null
   },
   {
     "model": "T5-3B",
@@ -15982,7 +16507,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-10"
+    "yearMonth": "2019-10",
+    "eci_score": null
   },
   {
     "model": "M4-50B",
@@ -16013,7 +16539,8 @@
     "modelCapacity": "Large (10B-100B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-10"
+    "yearMonth": "2019-10",
+    "eci_score": null
   },
   {
     "model": "DistilBERT",
@@ -16046,7 +16573,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-10"
+    "yearMonth": "2019-10",
+    "eci_score": null
   },
   {
     "model": "AlphaX-1",
@@ -16079,7 +16607,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-10"
+    "yearMonth": "2019-10",
+    "eci_score": null
   },
   {
     "model": "ALBERT",
@@ -16109,7 +16638,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-09"
+    "yearMonth": "2019-09",
+    "eci_score": null
   },
   {
     "model": "Adaptive Inputs + LayerDrop",
@@ -16142,7 +16672,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-09"
+    "yearMonth": "2019-09",
+    "eci_score": null
   },
   {
     "model": "Megatron-LM (8.3B)",
@@ -16170,7 +16701,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-09"
+    "yearMonth": "2019-09",
+    "eci_score": null
   },
   {
     "model": "Megatron-LM (1.2B)",
@@ -16198,7 +16730,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-09"
+    "yearMonth": "2019-09",
+    "eci_score": null
   },
   {
     "model": "Megatron-BERT",
@@ -16226,7 +16759,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-09"
+    "yearMonth": "2019-09",
+    "eci_score": null
   },
   {
     "model": "UDSMProt",
@@ -16254,7 +16788,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-09"
+    "yearMonth": "2019-09",
+    "eci_score": null
   },
   {
     "model": [
@@ -16288,7 +16823,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-09"
+    "yearMonth": "2019-09",
+    "eci_score": null
   },
   {
     "model": "trRosetta",
@@ -16324,7 +16860,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2019,
-    "yearMonth": "2019-08"
+    "yearMonth": "2019-08",
+    "eci_score": null
   },
   {
     "model": "EN^2AS with performance reward",
@@ -16359,7 +16896,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2019,
-    "yearMonth": "2019-07"
+    "yearMonth": "2019-07",
+    "eci_score": null
   },
   {
     "model": "Pluribus",
@@ -16389,7 +16927,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-07"
+    "yearMonth": "2019-07",
+    "eci_score": null
   },
   {
     "model": "BigBiGAN",
@@ -16417,7 +16956,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-07"
+    "yearMonth": "2019-07",
+    "eci_score": null
   },
   {
     "model": "RoBERTa Large",
@@ -16451,7 +16991,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-07"
+    "yearMonth": "2019-07",
+    "eci_score": null
   },
   {
     "model": "Walking Minotaur robot",
@@ -16481,7 +17022,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-06"
+    "yearMonth": "2019-06",
+    "eci_score": null
   },
   {
     "model": "LaNet-L (CIFAR-10)",
@@ -16515,7 +17057,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-06"
+    "yearMonth": "2019-06",
+    "eci_score": null
   },
   {
     "model": "PG-SWGAN",
@@ -16543,7 +17086,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2019,
-    "yearMonth": "2019-06"
+    "yearMonth": "2019-06",
+    "eci_score": null
   },
   {
     "model": "FixRes ResNeXt-101 WSL",
@@ -16570,7 +17114,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-06"
+    "yearMonth": "2019-06",
+    "eci_score": null
   },
   {
     "model": "Char-CNN-BiLSTM",
@@ -16598,7 +17143,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-06"
+    "yearMonth": "2019-06",
+    "eci_score": null
   },
   {
     "model": "AWD-LSTM + MoS + Partial Shuffled",
@@ -16626,7 +17172,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2019,
-    "yearMonth": "2019-06"
+    "yearMonth": "2019-06",
+    "eci_score": null
   },
   {
     "model": "Transformer-XL Large + Phrase Induction",
@@ -16661,7 +17208,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2019,
-    "yearMonth": "2019-06"
+    "yearMonth": "2019-06",
+    "eci_score": null
   },
   {
     "model": "XLNet",
@@ -16691,7 +17239,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-06"
+    "yearMonth": "2019-06",
+    "eci_score": null
   },
   {
     "model": "XLM",
@@ -16719,7 +17268,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-06"
+    "yearMonth": "2019-06",
+    "eci_score": null
   },
   {
     "model": "DLRM-2020",
@@ -16746,7 +17296,8 @@
     "modelCapacity": "Very Large (100B-1T)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-05"
+    "yearMonth": "2019-05",
+    "eci_score": null
   },
   {
     "model": "EfficientNet-L2",
@@ -16774,7 +17325,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-05"
+    "yearMonth": "2019-05",
+    "eci_score": null
   },
   {
     "model": "CPC v2",
@@ -16807,7 +17359,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-05"
+    "yearMonth": "2019-05",
+    "eci_score": null
   },
   {
     "model": "AWD-LSTM-DRILL + dynamic evaluation† (WT2)",
@@ -16835,7 +17388,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2019,
-    "yearMonth": "2019-05"
+    "yearMonth": "2019-05",
+    "eci_score": null
   },
   {
     "model": "ResNeXt-101 Billion-scale",
@@ -16862,7 +17416,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-05"
+    "yearMonth": "2019-05",
+    "eci_score": null
   },
   {
     "model": "RaptorX-Contact",
@@ -16890,7 +17445,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2019,
-    "yearMonth": "2019-05"
+    "yearMonth": "2019-05",
+    "eci_score": null
   },
   {
     "model": "Neuro-Symbolic Concept Learner",
@@ -16928,7 +17484,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-04"
+    "yearMonth": "2019-04",
+    "eci_score": null
   },
   {
     "model": "MuseNet",
@@ -16956,7 +17513,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-04"
+    "yearMonth": "2019-04",
+    "eci_score": null
   },
   {
     "model": "BERT-Large-CAS (PTB+WT2+WT103)",
@@ -16984,7 +17542,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-04"
+    "yearMonth": "2019-04",
+    "eci_score": null
   },
   {
     "model": "Transformer-XL + RMS dynamic eval",
@@ -17012,7 +17571,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2019,
-    "yearMonth": "2019-04"
+    "yearMonth": "2019-04",
+    "eci_score": null
   },
   {
     "model": "WeNet (Penn Treebank)",
@@ -17040,7 +17600,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-04"
+    "yearMonth": "2019-04",
+    "eci_score": null
   },
   {
     "model": "True-Regularization+Finetune+Dynamic-Eval",
@@ -17077,7 +17638,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-04"
+    "yearMonth": "2019-04",
+    "eci_score": null
   },
   {
     "model": "Cross-lingual alignment",
@@ -17114,7 +17676,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2019,
-    "yearMonth": "2019-04"
+    "yearMonth": "2019-04",
+    "eci_score": null
   },
   {
     "model": "SciBERT",
@@ -17142,7 +17705,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-03"
+    "yearMonth": "2019-03",
+    "eci_score": null
   },
   {
     "model": "NMT Transformer 437M",
@@ -17179,7 +17743,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-02"
+    "yearMonth": "2019-02",
+    "eci_score": null
   },
   {
     "model": "KataGo",
@@ -17207,7 +17772,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-02"
+    "yearMonth": "2019-02",
+    "eci_score": null
   },
   {
     "model": "GPT-2 (1.5B)",
@@ -17235,7 +17801,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-02"
+    "yearMonth": "2019-02",
+    "eci_score": null
   },
   {
     "model": "SDE",
@@ -17268,7 +17835,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-02"
+    "yearMonth": "2019-02",
+    "eci_score": null
   },
   {
     "model": "Hanabi 4 player",
@@ -17304,7 +17872,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-02"
+    "yearMonth": "2019-02",
+    "eci_score": null
   },
   {
     "model": "MT-DNN",
@@ -17332,7 +17901,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2019,
-    "yearMonth": "2019-01"
+    "yearMonth": "2019-01",
+    "eci_score": null
   },
   {
     "model": "Transformer-XL (257M)",
@@ -17362,7 +17932,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-01"
+    "yearMonth": "2019-01",
+    "eci_score": null
   },
   {
     "model": "Transformer ELMo",
@@ -17396,7 +17967,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2019,
-    "yearMonth": "2019-01"
+    "yearMonth": "2019-01",
+    "eci_score": null
   },
   {
     "model": "StyleGAN",
@@ -17424,7 +17996,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-12"
+    "yearMonth": "2018-12",
+    "eci_score": null
   },
   {
     "model": "SPN (ImageNet 128)",
@@ -17457,7 +18030,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-12"
+    "yearMonth": "2018-12",
+    "eci_score": null
   },
   {
     "model": "GPipe (Transformer)",
@@ -17485,7 +18059,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-11"
+    "yearMonth": "2018-11",
+    "eci_score": null
   },
   {
     "model": "Multi-cell LSTM",
@@ -17513,7 +18088,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2018,
-    "yearMonth": "2018-11"
+    "yearMonth": "2018-11",
+    "eci_score": null
   },
   {
     "model": "Fine-tuned-AWD-LSTM-DOC (fin)",
@@ -17541,7 +18117,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-11"
+    "yearMonth": "2018-11",
+    "eci_score": null
   },
   {
     "model": "Mesh-TensorFlow Transformer 4.9B (language)",
@@ -17568,7 +18145,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-11"
+    "yearMonth": "2018-11",
+    "eci_score": null
   },
   {
     "model": "Mesh-TensorFlow Transformer 2.9B (translation)",
@@ -17595,7 +18173,8 @@
     "modelCapacity": "Medium (1B-10B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-11"
+    "yearMonth": "2018-11",
+    "eci_score": null
   },
   {
     "model": "MemoReader",
@@ -17629,7 +18208,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2018,
-    "yearMonth": "2018-10"
+    "yearMonth": "2018-10",
+    "eci_score": null
   },
   {
     "model": "TrellisNet",
@@ -17667,7 +18247,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2018,
-    "yearMonth": "2018-10"
+    "yearMonth": "2018-10",
+    "eci_score": null
   },
   {
     "model": "MetaMimic",
@@ -17695,7 +18276,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-10"
+    "yearMonth": "2018-10",
+    "eci_score": null
   },
   {
     "model": "BERT-Large",
@@ -17723,7 +18305,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-10"
+    "yearMonth": "2018-10",
+    "eci_score": null
   },
   {
     "model": "Transformer (Adaptive Input Embeddings) WT103",
@@ -17753,7 +18336,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-09"
+    "yearMonth": "2018-09",
+    "eci_score": null
   },
   {
     "model": "LSTM+NeuralCache",
@@ -17791,7 +18375,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2018,
-    "yearMonth": "2018-09"
+    "yearMonth": "2018-09",
+    "eci_score": null
   },
   {
     "model": [
@@ -17828,7 +18413,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2018,
-    "yearMonth": "2018-09"
+    "yearMonth": "2018-09",
+    "eci_score": null
   },
   {
     "model": "Transformer + Simple Recurrent Unit",
@@ -17864,7 +18450,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2018,
-    "yearMonth": "2018-09"
+    "yearMonth": "2018-09",
+    "eci_score": null
   },
   {
     "model": "NetSurfP-2.0",
@@ -17901,7 +18488,8 @@
     "modelCapacity": "Unknown",
     "sector": "Public",
     "year": 2018,
-    "yearMonth": "2018-09"
+    "yearMonth": "2018-09",
+    "eci_score": null
   },
   {
     "model": "(ensemble): AWD-LSTM-DOC (fin) × 5 (WT2)",
@@ -17935,7 +18523,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2018,
-    "yearMonth": "2018-08"
+    "yearMonth": "2018-08",
+    "eci_score": null
   },
   {
     "model": "Big Transformer for Back-Translation",
@@ -17968,7 +18557,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-08"
+    "yearMonth": "2018-08",
+    "eci_score": null
   },
   {
     "model": "AWD-LSTM-MoS+PDR + dynamic evaluation (WT2)",
@@ -17996,7 +18586,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-08"
+    "yearMonth": "2018-08",
+    "eci_score": null
   },
   {
     "model": "Big-Little Net (speech)",
@@ -18024,7 +18615,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-07"
+    "yearMonth": "2018-07",
+    "eci_score": null
   },
   {
     "model": "Big-Little Net",
@@ -18052,7 +18644,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-07"
+    "yearMonth": "2018-07",
+    "eci_score": null
   },
   {
     "model": "FTW (For The Win)",
@@ -18079,7 +18672,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-07"
+    "yearMonth": "2018-07",
+    "eci_score": null
   },
   {
     "model": "MobileNetV2",
@@ -18107,7 +18701,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-06"
+    "yearMonth": "2018-06",
+    "eci_score": null
   },
   {
     "model": "Relational Memory Core",
@@ -18137,7 +18732,8 @@
     "modelCapacity": "Unknown",
     "sector": "Other",
     "year": 2018,
-    "yearMonth": "2018-06"
+    "yearMonth": "2018-06",
+    "eci_score": null
   },
   {
     "model": "GPT-1",
@@ -18165,7 +18761,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-06"
+    "yearMonth": "2018-06",
+    "eci_score": null
   },
   {
     "model": "aLSTM(depth-2)+RecurrentPolicy (WT2)",
@@ -18199,7 +18796,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2018,
-    "yearMonth": "2018-05"
+    "yearMonth": "2018-05",
+    "eci_score": null
   },
   {
     "model": "Dropout-LSTM+Noise(Bernoulli) (WT2)",
@@ -18231,7 +18829,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2018,
-    "yearMonth": "2018-05"
+    "yearMonth": "2018-05",
+    "eci_score": null
   },
   {
     "model": "ResNeXt-101 32x48d",
@@ -18259,7 +18858,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-05"
+    "yearMonth": "2018-05",
+    "eci_score": null
   },
   {
     "model": "YOLOv3",
@@ -18287,7 +18887,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Public",
     "year": 2018,
-    "yearMonth": "2018-04"
+    "yearMonth": "2018-04",
+    "eci_score": null
   },
   {
     "model": "4 layer QRNN (h=2500)",
@@ -18315,7 +18916,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-03"
+    "yearMonth": "2018-03",
+    "eci_score": null
   },
   {
     "model": "Chinese - English translation",
@@ -18343,7 +18945,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-03"
+    "yearMonth": "2018-03",
+    "eci_score": null
   },
   {
     "model": "TCN (P-MNIST)",
@@ -18377,7 +18980,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2018,
-    "yearMonth": "2018-02"
+    "yearMonth": "2018-02",
+    "eci_score": null
   },
   {
     "model": "DeepLabV3+",
@@ -18405,7 +19009,8 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-02"
+    "yearMonth": "2018-02",
+    "eci_score": null
   },
   {
     "model": "IMPALA",
@@ -18432,7 +19037,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-02"
+    "yearMonth": "2018-02",
+    "eci_score": null
   },
   {
     "model": "QRNN",
@@ -18460,7 +19066,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-02"
+    "yearMonth": "2018-02",
+    "eci_score": null
   },
   {
     "model": "ELMo",
@@ -18494,7 +19101,8 @@
     "modelCapacity": "Small (<1B)",
     "sector": "Other",
     "year": 2018,
-    "yearMonth": "2018-02"
+    "yearMonth": "2018-02",
+    "eci_score": null
   },
   {
     "model": "T-DMCA",
@@ -18521,6 +19129,7 @@
     "modelCapacity": "Unknown",
     "sector": "Private",
     "year": 2018,
-    "yearMonth": "2018-01"
+    "yearMonth": "2018-01",
+    "eci_score": null
   }
 ]
