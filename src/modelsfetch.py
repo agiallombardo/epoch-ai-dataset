@@ -854,7 +854,7 @@ def normalize_existing_json(input_json=None, output_json=None):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     
     if input_json is None:
-        # Try to find the latest JSON file in output directory, or fallback to current directory
+        # Try to find the latest JSON file in output directory
         if os.path.exists(OUTPUT_DIR):
             json_files = [f for f in os.listdir(OUTPUT_DIR) if f.endswith('.json')]
             if json_files:
@@ -862,10 +862,9 @@ def normalize_existing_json(input_json=None, output_json=None):
                 json_files.sort(key=lambda f: os.path.getmtime(os.path.join(OUTPUT_DIR, f)), reverse=True)
                 input_json = os.path.join(OUTPUT_DIR, json_files[0])
             else:
-                # Fallback to current directory
-                input_json = "notable_ai_models.json"
+                raise FileNotFoundError(f"No JSON files found in {OUTPUT_DIR}. Please specify an input file or run download_and_convert() first.")
         else:
-            input_json = "notable_ai_models.json"
+            raise FileNotFoundError(f"Output directory {OUTPUT_DIR} does not exist. Please specify an input file or run download_and_convert() first.")
     
     if output_json is None:
         # Generate new filename with current date
