@@ -703,15 +703,11 @@ def download_and_convert():
         zip_path = os.path.join(temp_dir, "ai_models.zip")
         
         # Download the zip file
-        print(f"Downloading {DATA_URL}...")
         urllib.request.urlretrieve(DATA_URL, zip_path)
-        print("Download complete.")
         
         # Extract the zip file
-        print("Extracting zip file...")
         with zipfile.ZipFile(zip_path, 'r') as zip_ref:
             zip_ref.extractall(temp_dir)
-        print("Extraction complete.")
         
         # Find CSV file in the extracted files
         csv_path = os.path.join(temp_dir, CSV_FILENAME)
@@ -752,7 +748,6 @@ def download_and_convert():
         }
         
         # Read CSV and convert to JSON
-        print("Converting CSV to JSON...")
         data = []
         with open(csv_path, 'r', encoding='utf-8') as csv_file:
             csv_reader = csv.DictReader(csv_file)
@@ -801,11 +796,8 @@ def download_and_convert():
                 data.append(processed_row)
         
         # Normalize data
-        print("Normalizing data...")
         for record in data:
             normalize_record_fields(record)
-        
-        print(f"Normalized {len(data)} records")
         
         # Filter records by publication date (January 2018 to current date)
         max_date = datetime.now()
@@ -818,7 +810,6 @@ def download_and_convert():
                     filtered_data.append(record)
         
         data = filtered_data
-        print(f"Filtered to records from Jan 2018 to present: {len(data)} records")
         
         # Create output directory if it doesn't exist
         os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -830,9 +821,6 @@ def download_and_convert():
         # Save as JSON
         with open(output_json_path, 'w', encoding='utf-8') as json_file:
             json.dump(data, json_file, indent=2, ensure_ascii=False)
-        
-        print(f"JSON file saved as {output_json_path}")
-        print(f"Total records: {len(data)}")
 
 def normalize_existing_json(input_json=None, output_json=None):
     """
@@ -867,24 +855,15 @@ def normalize_existing_json(input_json=None, output_json=None):
         output_json_filename = get_output_json_filename()
         output_json = os.path.join(OUTPUT_DIR, output_json_filename)
     
-    print(f"Loading JSON from {input_json}...")
     with open(input_json, 'r', encoding='utf-8') as f:
         data = json.load(f)
-    
-    print(f"Normalizing {len(data)} records...")
     
     for record in data:
         normalize_record_fields(record)
     
-    print(f"Normalized {len(data)} records")
-    
     # Save normalized JSON
-    print(f"Saving normalized JSON to {output_json}...")
     with open(output_json, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    
-    print(f"Normalized JSON saved to {output_json}")
-    print(f"Total records: {len(data)}")
     
     return data
 
